@@ -566,7 +566,7 @@ return {
 			durability = 0.1,
 		},
 
-		['WEAPON_AUTOSHOTGUN'] = {
+		['WEAPON_SWEEPERSHOTGUN'] = {
 			label = 'Sweeper Shotgun',
 			weight = 4400,
 			durability = 0.05,
@@ -1033,67 +1033,67 @@ return {
 	Ammo = {
 		['ammo-22'] = {
 			label = '.22 Long Rifle',
-			weight = 3,
+			weight = 25,
 		},
 
 		['ammo-38'] = {
 			label = '.38 Long Colt',
-			weight = 10,
+			weight = 30,
 		},
 
 		['ammo-44'] = {
 			label = '.44 Magnum',
-			weight = 16,
+			weight = 35,
 		},
 
 		['ammo-45'] = {
 			label = '.45 ACP',
-			weight = 9,
+			weight = 40,
 		},
 
 		['ammo-50'] = {
 			label = '.50 AE',
-			weight = 19,
+			weight = 45,
 		},
 
 		['ammo-9'] = {
 			label = '9mm',
-			weight = 8,
+			weight = 50,
 		},
 
 		['ammo-flare'] = {
 			label = 'Flare round',
-			weight = 38,
+			weight = 55,
 		},
 
 		['ammo-heavysniper'] = {
 			label = '.50 BMG',
-			weight = 45,
+			weight = 60,
 		},
 
 		['ammo-musket'] = {
 			label = 'Musket round',
-			weight = 30,
+			weight = 65,
 		},
 
 		['ammo-rifle'] = {
 			label = '5.56',
-			weight = 4,
+			weight = 70,
 		},
 
 		['ammo-rifle2'] = {
 			label = '7.62',
-			weight = 8,
+			weight = 75,
 		},
 
 		['ammo-shotgun'] = {
 			label = '12 Gauge',
-			weight = 38,
+			weight = 80,
 		},
 
 		['ammo-sniper'] = {
 			label = '7.62 NATO',
-			weight = 11,
+			weight = 85,
 		},
 
 		['ammo-emp'] = {
