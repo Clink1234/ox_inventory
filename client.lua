@@ -42,7 +42,7 @@ end)
 plyState:set('invBusy', true, false)
 plyState:set('invHotkeys', false, false)
 
-local function canOpenInventory()
+--[[local function canOpenInventory()
 	return PlayerData.loaded
 	and not invBusy
 	and not PlayerData.dead
@@ -51,6 +51,18 @@ local function canOpenInventory()
 	and not IsPedCuffed(playerPed)
 	and not IsPauseMenuActive()
 	and not IsPedFatallyInjured(playerPed)
+end--]]
+
+local function canOpenInventory()
+    return PlayerData.loaded
+    and not invBusy
+    and not PlayerData.dead
+    and invOpen ~= nil
+    and (not currentWeapon or currentWeapon.timer == 0)
+    and not IsPedCuffed(playerPed)
+    and not IsPauseMenuActive()
+    and not IsPedFatallyInjured(playerPed)
+    and not exports.wasabi_ambulance: isPlayerDead()
 end
 
 ---@param ped number

@@ -12,12 +12,6 @@ Items.containers = require 'modules.items.containers'
 -- Slot count and maximum weight for containers
 -- Whitelist and blacklist: ['item_name'] = true
 Items.containers = {
-  ['bag'] = {
-		size = {30, 75000},
-    blacklist = {
-      ['bag'] = true
-    }
-  },
 	['card_binder'] = {
 		size = {100, 1000},
 		whitelist = {
@@ -126,7 +120,7 @@ Items.containers = {
 		}
 	}
 }
->>>>>>> a577108d (Add changes)
+>>>>>>> 33eb3ce7 (Changes from server)
 
 -- Possible metadata when creating garbage
 local trash = {

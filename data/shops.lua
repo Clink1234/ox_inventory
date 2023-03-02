@@ -49,6 +49,7 @@ return {
 			vec3(2679.25, 3280.12, 55.24),
 			vec3(2557.94, 382.05, 108.62),
 			vec3(373.55, 325.56, 103.56),
+      vec3(-48.24, -1757.85, 29.41),
 		}, targets = {
 			{ loc = vec3(25.06, -1347.32, 29.5), length = 2.7, width = 2.5, heading = 0.0, minZ = 28.5, maxZ = 29.9, distance = 1.5 },
 			{ loc = vec3(-3039.18, 585.13, 7.91), length = 2.6, width = 2.5, heading = 15.0, minZ = 6.91, maxZ = 8.31, distance = 1.5 },
@@ -60,6 +61,7 @@ return {
 			{ loc = vec3(2678.29, 3279.94, 55.24), length = 2.6, width = 2.5, heading = 330.0, minZ = 54.24, maxZ = 55.64, distance = 1.5 },
 			{ loc = vec3(2557.19, 381.4, 108.62), length = 2.6, width = 2.5, heading = 0.0, minZ = 107.62, maxZ = 109.02, distance = 1.5 },
 			{ loc = vec3(373.13, 326.29, 103.57), length = 2.6, width = 2.5, heading = 345.0, minZ = 102.57, maxZ = 103.97, distance = 1.5 },
+      { loc = vec3(-48.24, -1757.85, 29.41), length = 2.6, width = 2.5, heading = 235.27, minZ = 28.41, maxZ = 30.41, distance = 1.5 },
 		}
 	},
 
@@ -134,7 +136,6 @@ return {
 		blip = {
 			id = 402, colour = 69, scale = 0.8
 		}, inventory = {
-      { name = 'phone', price = 1500 },
 			{ name = 'bleach', price = 75 },
       { name = 'drain_cleaner', price = 75 },
       { name = 'cement_mix', price = 20 },
@@ -148,15 +149,42 @@ return {
       { name = 'water_jug', price = 12 },
       { name = 'pliers', price = 400 },
       { name = 'drill', price = 1500 },
+      { name = 'dhandledrill', price = 2500 },
+      { name = 'rope', price = 100 },
       { name = 'bag', price = 400 },
       { name = 'lockpick', price = 400 },
-      { name = 'police_radio', price = 400 },
+      { name = 'fishingrod', price = 250 },
+      { name = 'fishbait', price = 25 },
+      { name = 'pickaxe', price = 300 },
+      { name = 'paperbag', price = 20 },
+      { name = 'ziptie', price = 10 },
+      { name = 'spray', price = 500 },
+      { name = 'spray_remover', price = 20 },
+      { name = 'fixkit', price = 500 },
+      { name = 'car_wax', price = 75 },
+      { name = 'car_wax_premium', price = 125 },
 		}, locations = {
 			vec3(-3153.87,1053.78,20.86),
 			vec3(-11.13,6499.44,31.5)
 		}, targets = {
 			{ loc = vec3(-3153.87,1053.78,20.86), length = 2.6, width = 3.0, heading = 65.0, minZ = 18.86, maxZ = 22.86, distance = 3.0 },
       { loc = vec3(-11.13,6499.44,31.5), length = 2.6, width = 3.0, heading = 65.0, minZ = 29.5, maxZ = 33.5, distance = 3.0 }
+		}
+	},
+  
+  Electronics = {
+		name = 'Electronics',
+		blip = {
+			id = 817, colour = 24, scale = 0.8
+		}, inventory = {
+      { name = 'phone', price = 1500 },
+      { name = 'police_radio', price = 400 },
+		}, locations = {
+			vec3(-1273.20, -1411.75, 4.4),
+			vec3(-1209.35, -1502.93, 4.4)
+		}, targets = {
+			{ loc = vec3(-1273.20, -1411.75, 4.4), length = 2.6, width = 3.0, heading = 300.0, minZ = 3.4, maxZ = 5.4, distance = 3.0 },
+      { loc = vec3(-1209.35, -1502.93, 4.4), length = 2.6, width = 3.0, heading = 300.0, minZ = 3.4, maxZ = 5.4, distance = 3.0 }
 		}
 	},
 
@@ -170,7 +198,6 @@ return {
       { name = 'WEAPON_SNSPISTOL', price = 1000, metadata = { registered = true }},
       { name = 'ammo-9', price = 25, },
       { name = 'ammo-45', price = 25, },
-      { name = 'WEAPON_STUNGUN', price = 3000 },
       { name = 'WEAPON_BAT', price = 750 },
       { name = 'WEAPON_GOLFCLUB', price = 750},
       { name = 'WEAPON_HATCHET', price = 500},
@@ -189,15 +216,16 @@ return {
 			vec3(-1117.58, 2698.61, 18.55),
 			vec3(842.44, -1033.42, 28.19)
 		}, targets = {
-			{ loc = vec3(-660.92, -934.10, 21.94), length = 2.6, width = 2.5, heading = 180.0, minZ = 20.8, maxZ = 22.2, distance = 2.0 },
-			{ loc = vec3(808.86, -2158.50, 29.73), length = 2.6, width = 2.5, heading = 360.0, minZ = 28.6, maxZ = 30.0, distance = 2.0 },
-			{ loc = vec3(1693.57, 3761.60, 34.82), length = 2.6, width = 2.5, heading = 227.39, minZ = 33.7, maxZ = 35.1, distance = 2.0 },
-			{ loc = vec3(-330.29, 6085.54, 31.57), length = 2.6, width = 2.5, heading = 225.0, minZ = 30.4, maxZ = 31.8, distance = 2.0 },
-			{ loc = vec3(252.85, -51.62, 70.0), length = 2.6, width = 2.5, heading = 70.0, minZ = 68.9, maxZ = 70.3, distance = 2.0 },
-			{ loc = vec3(23.68, -1106.46, 29.91), length = 2.6, width = 2.5, heading = 160.0, minZ = 28.8, maxZ = 30.2, distance = 2.0 },
-			{ loc = vec3(2566.59, 293.13, 108.85), length = 2.6, width = 2.5, heading = 360.0, minZ = 107.7, maxZ = 109.1, distance = 2.0 },
-			{ loc = vec3(-1117.61, 2700.26, 18.67), length = 2.6, width = 2.5, heading = 221.82, minZ = 17.5, maxZ = 18.9, distance = 2.0 },
-			{ loc = vec3(841.05, -1034.76, 28.31), length = 2.6, width = 2.5, heading = 360.0, minZ = 27.2, maxZ = 28.6, distance = 2.0 }
+			{ loc = vec3(-660.89, -940.08, 21.83), length = 2.6, width = 2.5, heading = 180.0, minZ = 20.8, maxZ = 22.2, distance = 2.0 },
+			{ loc = vec3(813.24, -2153.50, 29.62), length = 2.6, width = 2.5, heading = 360.0, minZ = 28.6, maxZ = 30.0, distance = 2.0 },
+			{ loc = vec3(1697.04, 3755.90, 34.71), length = 2.6, width = 2.5, heading = 227.39, minZ = 33.7, maxZ = 35.1, distance = 2.0 },
+			{ loc = vec3(-327.03, 6079.79, 31.45), length = 2.6, width = 2.5, heading = 225.0, minZ = 30.4, maxZ = 31.8, distance = 2.0 },
+			{ loc = vec3(247.16, -49.60, 69.94), length = 2.6, width = 2.5, heading = 70.0, minZ = 68.9, maxZ = 70.3, distance = 2.0 },
+			{ loc = vec3(17.87, -1109.67, 29.80), length = 2.6, width = 2.5, heading = 160.0, minZ = 28.8, maxZ = 30.2, distance = 2.0 },
+			{ loc = vec3(2566.56, 299.05, 108.73), length = 2.6, width = 2.5, heading = 360.0, minZ = 107.7, maxZ = 109.1, distance = 2.0 },
+			{ loc = vec3(-1113.50, 2695.71, 18.55), length = 2.6, width = 2.5, heading = 221.82, minZ = 17.5, maxZ = 18.9, distance = 2.0 },
+			{ loc = vec3(842.91, -1028.33, 28.19), length = 2.6, width = 2.5, heading = 360.0, minZ = 27.2, maxZ = 28.6, distance = 2.0 },
+      { loc = vec3(-3167.30, 1085.23, 20.84), length = 2.6, width = 2.5, heading = 360.0, minZ = 19.85, maxZ = 21.25, distance = 2.0 }
 		}
 	},
 
@@ -214,24 +242,29 @@ return {
       { name = 'ammo-rifle', price = 0, },
       { name = 'ammo-shotgun', price = 0, },
       { name = 'WEAPON_STUNGUN', price = 0, metadata = { serial = 'POL'} },
+      { name = 'taser_cartridge', price = 0 },
       { name = 'WEAPON_NIGHTSTICK', price = 0 },
       { name = 'WEAPON_FLASHLIGHT', price = 0 },
       { name = 'police_radio', price = 0, metadata = { serial = 'POL'} },
-      { name = 'fingerprintkit', price = 0 },
-      { name = 'evidencebag', price = 0 },
-      { name = 'dnaswab', price = 0 },
-      { name = 'barricade', price = 0 },
-      { name = 'cone', price = 0 },
-      --{ name = 'riotshield', price = 0 },
-      { name = 'pdcam', price = 0 },
-      { name = 'vehcam', price = 0 },
+      { name = 'bodycam', price = 0 },
+      { name = 'empty_evidence_bag', price = 0 },
+      { name = 'nikon', price = 0 },
+      { name = 'sdcard', price = 0 },
+      { name = 'gsrtestkit', price = 0 },
+      { name = 'dnatestkit', price = 0 },
+      --{ name = 'drugtestkit', price = 0 },
+      { name = 'breathalyzer', price = 0 },
+      { name = 'fingerprintreader', price = 0 },
+      { name = 'accesstool', price = 0 },
       { name = 'medikit', price = 0 },
       { name = 'bandage', price = 0 },
+      { name = 'armour', price = 0 },
       { name = 'at_flashlight', price = 0 },
       { name = 'at_compensator', price = 0, grade = 1 },
       { name = 'at_scope_medium', price = 0, grade = 1 },
       { name = 'at_clip_extended_pistol', price = 0, grade = 4 },
-      { name = 'at_suppressor_light', price = 0, grade = 4 }
+      { name = 'at_suppressor_light', price = 0, grade = 4 },
+      { name = 'spray_remover', price = 0 },
 		}, locations = {
 			vec3(482.55, -995.17, 29.69)
 		}, targets = {
@@ -249,7 +282,9 @@ return {
 		}, inventory = {
 			{ name = 'medikit', price = 0 },
 			{ name = 'medbag', price = 0 },
-      { name = 'bandage', price = 0 }
+      { name = 'bandage', price = 0 },
+      { name = 'armour', price = 0 },
+      { name = 'police_radio', price = 0, metadata = { serial = 'EMS'} }
 		}, locations = {
 			vec3(306.63, -601.44, 43.28-0.95)
       --vec3(306.3687, -601.5139, 43.28406)
