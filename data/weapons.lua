@@ -1,11 +1,11 @@
 return {
 	Weapons = {
-
 		['WEAPON_ADVANCEDRIFLE'] = {
 			label = 'Advanced Rifle',
 			weight = 3180,
 			durability = 0.03,
 			ammoname = 'ammo-rifle',
+			caliber = '5.56x45mm NATO',
 		},
 
 		['WEAPON_APPISTOL'] = {
@@ -13,6 +13,7 @@ return {
 			weight = 1220,
 			durability = 0.1,
 			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_ASSAULTRIFLE'] = {
@@ -20,6 +21,7 @@ return {
 			weight = 3470,
 			durability = 0.03,
 			ammoname = 'ammo-rifle2',
+			caliber = '7.62x39mm Soviet',
 		},
 
 		['WEAPON_ASSAULTRIFLE_MK2'] = {
@@ -27,20 +29,23 @@ return {
 			weight = 3300,
 			durability = 0.03,
 			ammoname = 'ammo-rifle2',
+			caliber = '7.62x39mm Soviet',
 		},
 
 		['WEAPON_ASSAULTSHOTGUN'] = {
 			label = 'Assault Shotgun',
 			weight = 3100,
 			durability = 0.05,
-			ammoname = 'ammo-shotgun'
+			ammoname = 'ammo-shotgun',
+			caliber = '12 Gauge',
 		},
 
 		['WEAPON_ASSAULTSMG'] = {
 			label = 'Assault SMG',
 			weight = 2850,
 			durability = 0.05,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-rifle',
+			caliber = '5.56x45mm NATO',
 		},
 
 		['WEAPON_BALL'] = {
@@ -71,90 +76,103 @@ return {
 			label = 'Bullpup Rifle',
 			weight = 2900,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-rifle',
+			caliber = '5.56x45mm NATO',
 		},
 
 		['WEAPON_BULLPUPRIFLE_MK2'] = {
 			label = 'Bullpup Rifle MK2',
 			weight = 2900,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-rifle',
+			caliber = '5.56x45mm NATO',
 		},
 
 		['WEAPON_BULLPUPSHOTGUN'] = {
 			label = 'Bullpup Shotgun',
 			weight = 3100,
 			durability = 0.2,
-			ammoname = 'ammo-shotgun'
+			ammoname = 'ammo-shotgun',
+			caliber = '12 Gauge'
 		},
 
 		['WEAPON_BZGAS'] = {
 			label = 'BZ Gas',
 			weight = 600,
 			throwable = true,
+			caliber = 'Grenade Pin'
 		},
 
 		['WEAPON_CARBINERIFLE'] = {
 			label = 'Carbine Rifle',
 			weight = 3100,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-rifle',
+			caliber = '5.56x45mm NATO'
 		},
 
 		['WEAPON_CARBINERIFLE_MK2'] = {
 			label = 'Carbine Rifle MK2',
 			weight = 3000,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-rifle',
+			caliber = '5.56x45mm NATO'
 		},
 
 		['WEAPON_CERAMICPISTOL'] = {
 			label = 'Ceramic Pistol',
 			weight = 700,
 			durability = 0.2,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_COMBATMG'] = {
 			label = 'Combat MG',
 			weight = 10000,
 			durability = 0.02,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-rifle',
+			caliber = '5.56x45mm NATO'
 		},
 
 		['WEAPON_COMBATMG_MK2'] = {
 			label = 'Combat MG MK2',
 			weight = 10500,
 			durability = 0.02,
-			ammoname = 'ammo-rifle2'
+			ammoname = 'ammo-rifle2',
+			caliber = '7.62x39mm Soviet',
 		},
 
 		['WEAPON_COMBATPDW'] = {
 			label = 'Combat PDW',
 			weight = 2700,
 			durability = 0.1,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_COMBATPISTOL'] = {
 			label = 'Combat Pistol',
 			weight = 970,
 			durability = 0.2,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_COMBATSHOTGUN'] = {
 			label = 'Combat Shotgun',
 			weight = 4400,
 			durability = 0.2,
-			ammoname = 'ammo-shotgun'
+			ammoname = 'ammo-shotgun',
+			caliber = '12 Gauge',
 		},
 
 		['WEAPON_COMPACTRIFLE'] = {
 			label = 'Compact Rifle',
 			weight = 2700,
 			durability = 0.05,
-			ammoname = 'ammo-rifle2'
+			ammoname = 'ammo-rifle2',
+			caliber = '7.62x39mm Soviet',
 		},
 
 		['WEAPON_CROWBAR'] = {
@@ -173,21 +191,24 @@ return {
 			label = 'Double Barrel Shotgun',
 			weight = 3175,
 			durability = 0.4,
-			ammoname = 'ammo-shotgun'
+			ammoname = 'ammo-shotgun',
+			caliber = '12 Gauge',
 		},
 
 		['WEAPON_DOUBLEACTION'] = {
 			label = 'Double Action Revolver',
 			weight = 940,
 			durability = 0.2,
-			ammoname = 'ammo-38'
+			ammoname = 'ammo-38',
+			caliber = '.38 Long Colt',
 		},
 
 		['WEAPON_EMPLAUNCHER'] = {
 			label = 'Compact EMP Launcher',
 			weight = 2750,
 			durability = 0.2,
-			ammoname = 'ammo-emp'
+			ammoname = 'ammo-emp',
+			caliber = '40mm Grenade',
 		},
 
 		['WEAPON_FIREEXTINGUISHER'] = {
@@ -199,19 +220,22 @@ return {
 			label = 'Firework Launcher',
 			weight = 1000,
 			durability = 0.5,
+			caliber = 'Firework Packaging',
 		},
 
 		['WEAPON_FLARE'] = {
 			label = 'Flare',
 			weight = 235,
 			throwable = true,
+			caliber = 'Flare Cap',
 		},
 
 		['WEAPON_FLAREGUN'] = {
 			label = 'Flare Gun',
 			weight = 1000,
 			durability = 0.5,
-			ammoname = 'ammo-flare'
+			ammoname = 'ammo-flare',
+			caliber = '25mm Flare',
 		},
 
 		['WEAPON_FLASHLIGHT'] = {
@@ -230,13 +254,15 @@ return {
 			label = 'Grenade',
 			weight = 600,
 			throwable = true,
+			caliber = 'Grenade Pin',
 		},
 
 		['WEAPON_GUSENBERG'] = {
 			label = 'Gusenberg',
 			weight = 4900,
 			durability = 0.04,
-			ammoname = 'ammo-45'
+			ammoname = 'ammo-45',
+			caliber = '.45 ACP',
 		},
 
 		['WEAPON_HAMMER'] = {
@@ -255,7 +281,8 @@ return {
 			label = 'Heavy Rifle',
 			weight = 2750,
 			durability = 0.2,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-sniper',
+			caliber = '7.62x51mm NATO',
 		},
 
 		['WEAPON_HAZARDCAN'] = {
@@ -277,28 +304,32 @@ return {
 			label = 'Heavy Pistol',
 			weight = 1100,
 			durability = 0.2,
-			ammoname = 'ammo-45'
+			ammoname = 'ammo-45',
+			caliber = '.45 ACP',
 		},
 
 		['WEAPON_HEAVYSHOTGUN'] = {
 			label = 'Heavy Shotgun',
 			weight = 3600,
 			durability = 0.1,
-			ammoname = 'ammo-shotgun'
+			ammoname = 'ammo-shotgun',
+			caliber = '12 Gauge',
 		},
 
 		['WEAPON_HEAVYSNIPER'] = {
 			label = 'Heavy Sniper',
 			weight = 14000,
 			durability = 0.5,
-			ammoname = 'ammo-heavysniper'
+			ammoname = 'ammo-heavysniper',
+			caliber = '.50 BMG',
 		},
 
 		['WEAPON_HEAVYSNIPER_MK2'] = {
 			label = 'Heavy Sniper MK2',
 			weight = 10432,
 			durability = 0.5,
-			ammoname = 'ammo-heavysniper'
+			ammoname = 'ammo-heavysniper',
+			caliber = '.50 BMG',
 		},
 
 		['WEAPON_KNIFE'] = {
@@ -323,56 +354,64 @@ return {
 			label = 'Machine Pistol',
 			weight = 1400,
 			durability = 0.05,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_MARKSMANPISTOL'] = {
 			label = 'Marksman Pistol',
 			weight = 1588,
 			durability = 0.5,
-			ammoname = 'ammo-22'
+			ammoname = 'ammo-22',
+			caliber = '.22 Long Rifle',
 		},
 
 		['WEAPON_MARKSMANRIFLE'] = {
 			label = 'Marksman Rifle',
 			weight = 7500,
 			durability = 0.4,
-			ammoname = 'ammo-sniper'
+			ammoname = 'ammo-sniper',
+			caliber = '7.62x51mm NATO',
 		},
 
 		['WEAPON_MARKSMANRIFLE_MK2'] = {
 			label = 'Marksman Rifle',
 			weight = 4000,
 			durability = 0.4,
-			ammoname = 'ammo-sniper'
+			ammoname = 'ammo-sniper',
+			caliber = '7.62x51mm NATO',
 		},
 
 		['WEAPON_MG'] = {
 			label = 'Machine Gun',
 			weight = 9000,
 			durability = 0.02,
-			ammoname = 'ammo-rifle2'
+			ammoname = 'ammo-rifle2',
+			caliber = '7.62x39mm Soviet',
 		},
 
 		['WEAPON_MICROSMG'] = {
 			label = 'Micro SMG',
 			weight = 4000,
 			durability = 0.1,
-			ammoname = 'ammo-45'
+			ammoname = 'ammo-45',
+			caliber = '.45 ACP',
 		},
 
 		['WEAPON_MILITARYRIFLE'] = {
 			label = 'Military Rifle',
 			weight = 3600,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-rifle',
+			caliber = '5.56x45mm NATO',
 		},
 
 		['WEAPON_MINISMG'] = {
 			label = 'Mini SMG',
 			weight = 2770,
 			durability = 0.05,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_MOLOTOV'] = {
@@ -385,14 +424,16 @@ return {
 			label = 'Musket',
 			weight = 4500,
 			durability = 0.5,
-			ammoname = 'ammo-musket'
+			ammoname = 'ammo-musket',
+			caliber = 'A Percussion Cap?',
 		},
 
 		['WEAPON_NAVYREVOLVER'] = {
 			label = 'Navy Revolver',
 			weight = 2000,
 			durability = 0.2,
-			ammoname = 'ammo-44'
+			ammoname = 'ammo-38',
+			caliber = '.38 Long Colt',
 		},
 
 		['WEAPON_NIGHTSTICK'] = {
@@ -410,7 +451,8 @@ return {
 			label = 'Perico Pistol',
 			weight = 1750,
 			durability = 0.1,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_PIPEBOMB'] = {
@@ -424,20 +466,23 @@ return {
 			weight = 970,
 			durability = 0.1,
 			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_PISTOL50'] = {
 			label = 'Pistol .50',
 			weight = 2000,
 			durability = 0.1,
-			ammoname = 'ammo-50'
+			ammoname = 'ammo-50',
+			caliber = '.50 Action Express',
 		},
 
 		['WEAPON_PISTOL_MK2'] = {
 			label = 'Pistol MK2',
 			weight = 970,
 			durability = 0.5,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_POOLCUE'] = {
@@ -456,62 +501,71 @@ return {
 			label = 'Pump Shotgun',
 			weight = 3400,
 			durability = 0.1,
-			ammoname = 'ammo-shotgun'
+			ammoname = 'ammo-shotgun',
+			caliber = '12 Gauge',
 		},
 
 		['WEAPON_PUMPSHOTGUN_MK2'] = {
 			label = 'Pump Shotgun MK2',
 			weight = 3200,
 			durability = 0.1,
-			ammoname = 'ammo-shotgun'
+			ammoname = 'ammo-shotgun',
+			caliber = '12 Gauge',
 		},
 
 		['WEAPON_REVOLVER'] = {
 			label = 'Revolver',
 			weight = 2260,
 			durability = 0.1,
-			ammoname = 'ammo-44'
+			ammoname = 'ammo-44',
+			caliber = '.44 Magnum',
 		},
 
 		['WEAPON_REVOLVER_MK2'] = {
 			label = 'Revolver MK2',
 			weight = 1500,
 			durability = 0.1,
-			ammoname = 'ammo-44'
+			ammoname = 'ammo-44',
+			caliber = '.44 Magnum',
 		},
 
 		['WEAPON_SAWNOFFSHOTGUN'] = {
 			label = 'Sawn Off Shotgun',
 			weight = 2380,
 			durability = 0.1,
-			ammoname = 'ammo-shotgun'
+			ammoname = 'ammo-shotgun',
+			caliber = '12 Gauge',
 		},
 
 		['WEAPON_SMG'] = {
 			label = 'SMG',
 			weight = 3084,
 			durability = 0.8,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_SMG_MK2'] = {
 			label = 'SMG Mk2',
 			weight = 2700,
 			durability = 0.05,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_SMOKEGRENADE'] = {
 			label = 'Smoke Grenade',
 			weight = 600,
 			throwable = true,
+			caliber = 'Grenade Pin',
 		},
 
 		['WEAPON_SNIPERRIFLE'] = {
 			label = 'Sniper Rifle',
 			weight = 6500,
 			durability = 0.5,
-			ammoname = 'ammo-sniper'
+			ammoname = 'ammo-sniper',
+			caliber = '7.62x51mm NATO',
 		},
 
 		['WEAPON_SNOWBALL'] = {
@@ -524,28 +578,32 @@ return {
 			label = 'SNS Pistol',
 			weight = 465,
 			durability = 0.1,
-			ammoname = 'ammo-45'
+			ammoname = 'ammo-45',
+			caliber = '.45 ACP',
 		},
 
 		['WEAPON_SNSPISTOL_MK2'] = {
 			label = 'SNS Pistol MK2',
 			weight = 465,
 			durability = 0.1,
-			ammoname = 'ammo-45'
+			ammoname = 'ammo-45',
+			caliber = '.45 ACP',
 		},
 
 		['WEAPON_SPECIALCARBINE'] = {
 			label = 'Special Carbine',
 			weight = 3000,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-rifle',
+			caliber = '5.56x45mm NATO',
 		},
 
 		['WEAPON_SPECIALCARBINE_MK2'] = {
 			label = 'Special Carbine MK2',
 			weight = 3370,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-rifle',
+			caliber = '5.56x45mm NATO',
 		},
 
 		['WEAPON_STICKYBOMB'] = {
@@ -564,13 +622,15 @@ return {
 			label = 'Tazer',
 			weight = 227,
 			durability = 0.1,
+			caliber = 'Taser AFID',
 		},
 
-		['WEAPON_SWEEPERSHOTGUN'] = {
+		['WEAPON_AUTOSHOTGUN'] = {
 			label = 'Sweeper Shotgun',
 			weight = 4400,
 			durability = 0.05,
-			ammoname = 'ammo-shotgun'
+			ammoname = 'ammo-shotgun',
+			caliber = '12 Gauge',
 		},
 
 		['WEAPON_SWITCHBLADE'] = {
@@ -584,7 +644,8 @@ return {
 			label = 'Vintage Pistol',
 			weight = 100,
 			durability = 0.1,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_WRENCH'] = {
@@ -597,14 +658,16 @@ return {
 			label = 'Precision Rifle',
 			weight = 4800,
 			durability = 0.4,
-			ammoname = 'ammo-sniper'
+			ammoname = 'ammo-sniper',
+			caliber = '7.62x51mm NATO'
 		},
 
 		['WEAPON_TACTICALRIFLE'] = {
 			label = 'Tactical Rifle',
 			weight = 3400,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'ammo-rifle',
+			caliber = '5.56x45mm NATO'
 		},
 	},
 
@@ -1033,67 +1096,79 @@ return {
 	Ammo = {
 		['ammo-22'] = {
 			label = '.22 Long Rifle',
-			weight = 25,
+      description = '.22 Long Rifle',
+			weight = 3,
 		},
 
 		['ammo-38'] = {
 			label = '.38 Long Colt',
-			weight = 30,
+      description = '.38 Long Colt',
+			weight = 10,
 		},
 
 		['ammo-44'] = {
 			label = '.44 Magnum',
-			weight = 35,
+      description = '.44 Magnum',
+			weight = 16,
 		},
 
 		['ammo-45'] = {
 			label = '.45 ACP',
-			weight = 40,
+      description = '.45 ACP',
+			weight = 9,
 		},
 
 		['ammo-50'] = {
 			label = '.50 AE',
-			weight = 45,
+      description = '.50 Action Express',
+			weight = 19,
 		},
 
 		['ammo-9'] = {
 			label = '9mm',
-			weight = 50,
+      description = '9x19mm Parabellum',
+			weight = 8,
 		},
 
 		['ammo-flare'] = {
 			label = 'Flare round',
-			weight = 55,
+			weight = 38,
 		},
 
 		['ammo-heavysniper'] = {
 			label = '.50 BMG',
-			weight = 60,
+      description = '.50 BMG',
+			weight = 45,
 		},
 
 		['ammo-musket'] = {
-			label = 'Musket round',
-			weight = 65,
+			label = 'Musket Ball',
+      description = 'Musket Ball',
+			weight = 30,
 		},
 
 		['ammo-rifle'] = {
 			label = '5.56',
-			weight = 70,
+      description = '5.56x45mm NATO',
+			weight = 4,
 		},
 
 		['ammo-rifle2'] = {
 			label = '7.62',
-			weight = 75,
+      description = '7.62x39mm Soviet',
+			weight = 8,
 		},
 
 		['ammo-shotgun'] = {
 			label = '12 Gauge',
-			weight = 80,
+      description = '12 Gauge',
+			weight = 38,
 		},
 
 		['ammo-sniper'] = {
 			label = '7.62 NATO',
-			weight = 85,
+      description = '7.62x51mm NATO',
+			weight = 11,
 		},
 
 		['ammo-emp'] = {

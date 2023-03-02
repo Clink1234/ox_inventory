@@ -58,6 +58,10 @@ Item('armour', function(data, slot)
 	end
 end)
 
+Item('taser_cartridge', function(data, slot)
+    TriggerServerEvent('TaserFramework:ReloadTaser', GetPlayerServerId(PlayerId()))
+end)
+
 client.parachute = false
 Item('parachute', function(data, slot)
 	if not client.parachute then

@@ -10,12 +10,6 @@ TriggerEvent('ox_inventory:itemList', ItemList)
 -- Slot count and maximum weight for containers
 -- Whitelist and blacklist: ['item_name'] = true
 Items.containers = {
-  ['bag'] = {
-		size = {30, 75000},
-    blacklist = {
-      ['bag'] = true
-    }
-  },
 	['card_binder'] = {
 		size = {100, 1000},
 		whitelist = {

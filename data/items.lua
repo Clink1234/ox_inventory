@@ -1,4 +1,388 @@
 return {
+  ['carwash_coupon'] = {
+		label = 'Carwash Coupon',
+    description = 'Free car wash!',
+		weight = 50,
+		stack = true,
+	},
+  
+  ['car_wax'] = {
+		label = 'Car Wax',
+    description = 'Vehicle wax to keep your vehicle clean.',
+		weight = 400,
+		stack = true,
+	},
+  
+  ['car_wax_premium'] = {
+		label = 'Nano-Wax Coating',
+    description = 'Premium long-lasting vehicle wax.',
+		weight = 500,
+		stack = true,
+	},
+
+  ['fixkit'] = {
+		consume = 0.0,
+		label = 'Engine Repair Kit',
+		weight = 1000,
+		stack = true,
+	},
+  
+  ['filled_evidence_bag'] = {
+		consume = 0.0,
+		label = 'Collected Evidence',
+		weight = 50,
+		stack = false,
+		description = 'This is police evidence.',
+		server = {export = 'r14-evidence.filled_evidence_bag'},
+	},
+
+
+	['empty_evidence_bag'] = {
+		consume = 0.0,
+		label = 'Empty Evidence Bag',
+		weight = 10,
+		stack = true,
+		description = 'This is an evidence bag.',
+	},
+
+	['nikon'] = {
+		consume = 0,
+		label = 'Nikoff G600',
+		weight = 1000,
+		stack = false,
+		description = 'Police evidence, caught in 4k',
+		server = {export = 'r14-evidence.nikon'},
+	},
+
+	['sdcard'] = {
+		consume = 0,
+		label = 'SD Card',
+		weight = 60,
+		stack = false,
+		description = 'People still use these??',
+		server = {export = 'r14-evidence.sdcard'},
+	},
+
+	['gsrtestkit'] = {
+		label = 'GSR Field Test Kit',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "A field GSR test kit containing several test strips"
+	},
+
+	['dnatestkit'] = {
+		label = 'DNA Field Swab Kit',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = "A field DNA swab kit containing several vials and swabs"
+	},
+
+
+	['drugtestkit'] = {
+		label = 'DNA Field Swab Kit',
+		weight = 200,
+		stack = true,
+		description = 'A multipanel oral drug test kit like the one your lame dad or boss buys... but for cops.',
+	},
+
+	['breathalyzer'] = {
+		label = 'Breathalyzer',
+		weight = 750,
+		stack = true,
+		close = true,
+		description = "A vintage 2000's breathalyzer engraved Property of LSPD"
+	},
+
+	['fingerprintreader'] = {
+		label = 'Pro Tech XFR8001',
+		weight = 800,
+		stack = false,
+		close = true,
+		description = "A Pro Tech mobile fingerprint reader that looks like it's seen better days."
+	},
+
+	['accesstool'] = {
+		consume = 0,
+		label = 'Access Tool',
+		weight = 700,
+		stack = false,
+		description = 'Snap into an access tool.',
+		server = {export = 'r14-evidence.accesstool',},
+	},
+  
+  ['spray'] = {
+		label = 'Spray',
+		weight = 250,
+		close = true,
+		consume = 0,
+		client = {},
+		server = {
+			export = 'rcore_spray.spray',
+		},
+	},
+	['spray_remover'] = {
+		label = 'Paint Stripper Wipe',
+		weight = 250,
+		close = true,
+		consume = 0,
+		client = {},
+		server = {
+			export = 'rcore_spray.spray_remover',
+		},
+	},
+  ['moneywash_keycard'] = {
+    label = 'Wash Keycard',
+    weight = 200,
+    stack = false,
+    description = 'This can be used to access the Laundomat.'
+  },
+
+  ['moneywash_ticket'] = {
+    label = 'Wash Ticket',
+    weight = 10,
+    stack = true,
+    description = 'This can be used at the Laundromat to start a wash.'
+  },
+
+  ['black_card'] = {
+		label = 'Black Access Card',
+		weight = 200,
+		stack = true
+	},
+  ['green_card'] = {
+		label = 'Green Access Card',
+		weight = 200,
+		stack = true
+	},
+  ['gold_card'] = {
+		label = 'Gold Access Card',
+		weight = 200,
+		stack = true
+	},
+  ['red_card'] = {
+		label = 'Red Access Card',
+		weight = 200,
+		stack = true
+	},
+  ['blue_card'] = {
+		label = 'Blue Access Card',
+		weight = 200,
+		stack = true
+	},
+  ['orange_card'] = {
+		label = 'Orange Access Card',
+		weight = 200,
+		stack = true
+	},
+
+  ['green_usb'] = {
+		label = 'Green USB Drive',
+		weight = 200,
+		stack = true
+	},
+  ['gold_usb'] = {
+		label = 'Gold USB Drive',
+		weight = 200,
+		stack = true
+	},
+  ['red_usb'] = {
+		label = 'Red USB Drive',
+		weight = 200,
+		stack = true
+	},
+  ['blue_usb'] = {
+		label = 'Blue USB Drive',
+		weight = 200,
+		stack = true
+	},
+  ['orange_usb'] = {
+		label = 'Orange USB Drive',
+		weight = 200,
+		stack = true
+	},
+
+  ['green_laptop'] = {
+		label = 'Green Laptop',
+		weight = 2000,
+		stack = true
+	},
+  ['gold_laptop'] = {
+		label = 'Gold Laptop',
+		weight = 2000,
+		stack = true
+	},
+  ['red_laptop'] = {
+		label = 'Red Laptop',
+		weight = 2000,
+		stack = true
+	},
+  ['blue_laptop'] = {
+		label = 'Blue Laptop',
+		weight = 2000,
+		stack = true
+	},
+  ['orange_laptop'] = {
+		label = 'Orange Laptop',
+		weight = 2000,
+		stack = true
+	},
+
+  ['hacking_computer'] = {
+		label = 'Hacking Computer',
+		weight = 2000,
+		stack = false
+	},
+  
+  ['thermal_charge'] = {
+		label = 'Thermite Charge',
+		weight = 500,
+		stack = true
+	},
+  
+  ['painting'] = {
+		label = 'Painting',
+		weight = 500,
+		stack = true
+	},
+  
+  ['gas_mask'] = {
+		label = 'Gas Mask',
+		weight = 800,
+		stack = false
+	},
+  
+  ['bodycam'] = {
+		label = 'Bodycam',
+		weight = 200,
+		stack = false,
+		description = 'Police Bodycamera',
+	},
+  
+  ['copper'] = {
+		label = 'Copper',
+		weight = 750,
+		stack = true,
+		close = false,
+	},
+
+	['diamond'] = {
+		label = 'Diamond',
+		weight = 250,
+		stack = true,
+		close = false,
+	},
+
+	['gold'] = {
+		label = 'Gold Bar',
+		weight = 500,
+		stack = true,
+		close = false,
+	},
+
+	['iron'] = {
+		label = 'Iron',
+		weight = 450,
+		stack = true,
+		close = false,
+	},
+
+	['steel'] = {
+		label = 'Steel',
+		weight = 470,
+		stack = true,
+		close = false,
+	},
+
+	['emerald'] = {
+		label = 'Emerald',
+		weight = 220,
+		stack = true,
+		close = false,
+	},
+
+	['pickaxe'] = {
+		label = 'Pickaxe',
+		weight = 450,
+		stack = false,
+		close = false,
+	},
+  
+  ['tuna'] = {
+		label = 'Tuna',
+		weight = 650,
+		stack = true,
+		close = false,
+	},
+	
+	['salmon'] = {
+		label = 'Salmon',
+		weight = 350,
+		stack = true,
+		close = false,
+	},
+
+	['trout'] = {
+		label = 'Trout',
+		weight = 250,
+		stack = true,
+		close = false,
+	},
+
+	['anchovy'] = {
+		label = 'Anchovy',
+		weight = 50,
+		stack = true,
+		close = false,
+	},
+
+	['fishbait'] = {
+		label = 'Fish Bait',
+		weight = 50,
+		stack = true,
+		close = false,
+	},
+
+	['fishingrod'] = {
+		label = 'Fishing Rod',
+		weight = 800,
+		stack = true,
+		close = true,
+	},
+  
+  ['id_card'] = {
+      label = 'ID Card',
+      weight = 10,
+      stack = false,
+      description = ""
+  },	
+
+  ['drivers_license'] = {
+      label = 'Drivers License',
+      weight = 10,
+      stack = false,
+      description = ""
+  },	
+
+  ['document'] = {
+      label = 'Document',
+      weight = 10,
+      stack = false,
+      description = ""
+  },
+  
+  ['handcuffs'] = {
+    label = 'Handcuffs',
+    weight = 1000,
+    stack = false
+  },
+  
+  ['taser_cartridge'] = {
+    label = 'Taser Cartridge',
+    weight = 120,
+  },
+  
   ["phone"] = {
       label = "Phone",
       weight = 500,
@@ -327,6 +711,7 @@ return {
 			prop = { model = `prop_rolled_sock_02`, pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
 			disable = { move = true, car = true, combat = true },
 			usetime = 2500,
+      event = "battlepass:bandage"
 		}
 	},
 
@@ -371,13 +756,19 @@ return {
 	['garbage'] = {
 		label = 'Garbage',
 	},
+  
+  ['ziptie'] = {
+		label = 'Zip Tie',
+		weight = 50,
+		stack = true,
+    consume = 1,
+	},
 
 	['paperbag'] = {
 		label = 'Paper Bag',
-		weight = 250,
-		stack = false,
-		close = false,
-		consume = 0
+		weight = 100,
+		stack = true,
+    consume = 1,
 	},
 
 	['identification'] = {
@@ -426,7 +817,8 @@ return {
 			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
 			usetime = 2500,
 			cancel = true,
-			notification = 'You drank some refreshing water'
+			notification = 'You drank some refreshing water',
+      event = "battlepass:water"
 		}
 	},
 
@@ -439,8 +831,8 @@ return {
 
 	['armour'] = {
 		label = 'Body Armor',
-		weight = 3000,
-		stack = false,
+		weight = 5000,
+		stack = true,
 		client = {
 			anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
 			usetime = 3500
@@ -511,13 +903,14 @@ return {
 		description = nil
 	},
 
-	['bag'] = {
+  ['bag'] = {
 		label = 'Bag',
-		weight = 25001,
+		weight = 2000,
 		stack = false,
-		close = false,
-    consume = 0,
-		description = nil
+		consume = 0,
+		client = {
+			export = 'wasabi_backpack.openBackpack'
+		}
 	},
 
 	['barricade'] = {
@@ -1357,7 +1750,10 @@ return {
 		weight = 250,
 		stack = true,
 		close = true,
-		description = nil
+		description = nil,
+    client = {
+      event = "battlepass:beer"
+		}
 	},
 
 	['bleach'] = {
@@ -1497,14 +1893,6 @@ return {
 		description = nil,
 	},
 
-	['copper'] = {
-		label = 'Copper',
-		weight = 500,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
 	['cough_syrup'] = {
 		label = 'Cough Syrup',
 		weight = 250,
@@ -1532,14 +1920,6 @@ return {
 	['cutted_wood'] = {
 		label = 'Wood Log',
 		weight = 1000,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['diamond'] = {
-		label = 'Diamond',
-		weight = 500,
 		stack = true,
 		close = true,
 		description = nil
@@ -1584,6 +1964,26 @@ return {
 		close = true,
 		description = nil
 	},
+  
+  ["rope"] = {
+    label = "Rope",
+    weight = 500,
+    stack = true,
+    close = true,
+    client = {
+        export = "rob_atm.rope"
+    }
+  },
+  ["dhandledrill"] = {
+      label = "D-Handle Drill",
+      weight = 2500,
+      stack = true,
+      close = true,
+      consume = 0,
+      client = {
+          export = "rob_atm.drill"
+      }
+  },
 
 	['energy_drink'] = {
 		label = 'Energy Drink',
@@ -1595,7 +1995,7 @@ return {
 
 	['evidencebag'] = {
 		label = 'Evidence Bag',
-		weight = 0.1,
+		weight = 100,
 		stack = true,
 		close = true,
 		description = nil
@@ -1603,7 +2003,7 @@ return {
 
 	['fingerprintkit'] = {
 		label = 'Fingerprint Kit',
-		weight = 0.25,
+		weight = 250,
 		stack = true,
 		close = true,
 		description = nil
@@ -1614,7 +2014,10 @@ return {
 		weight = 250,
 		stack = true,
 		close = true,
-		description = nil
+		description = nil,
+    client = {
+      event = "battlepass:chicken"
+		}
 	},
 
 	['garbage_bag'] = {
@@ -1635,14 +2038,6 @@ return {
 
 	['glass_jar'] = {
 		label = 'Glass Jar',
-		weight = 500,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['gold'] = {
-		label = 'Gold',
 		weight = 500,
 		stack = true,
 		close = true,
@@ -1676,14 +2071,6 @@ return {
 	['ice'] = {
 		label = 'Ice',
 		weight = 250,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['iron'] = {
-		label = 'Iron',
-		weight = 500,
 		stack = true,
 		close = true,
 		description = nil
@@ -1848,14 +2235,22 @@ return {
 		close = true,
 		description = nil
 	},
-
-	['police_radio'] = {
-		label = 'Radio',
-		weight = 250,
-		stack = true,
-		close = true,
-		description = nil
-	},
+  
+  ['police_radio'] = {
+    label = 'Radio',
+    weight = 250,
+    stack = false,
+    allowArmed = true,
+    consume = 0,
+    client = {
+      export = 'zerio-radio.Open',
+      remove = function(total)
+          if total < 1 then
+              TriggerEvent('zerio-radio:client:removedradio')
+          end
+      end
+    }
+  },
 
 	['potassium_salt'] = {
 		label = 'Potassium Salt',
@@ -1983,6 +2378,12 @@ return {
 		stack = true,
 		close = true,
 		description = nil
+	},
+  
+  ['baking_pan'] = {
+		label = 'Baking Pan',
+		weight = 1000,
+		stack = true
 	},
 
 	['stove'] = {
@@ -2235,7 +2636,7 @@ return {
 
 	['fakeplate'] = {
 		label = 'Fake Vehicle Plate',
-		weight = 1,
+		weight = 1000,
 		stack = true,
 		close = true,
 		description = nil
@@ -2243,7 +2644,7 @@ return {
 
 	['icepack'] = {
 		label = 'Ice Pack',
-		weight = 1,
+		weight = 1000,
 		stack = true,
 		close = true,
 		description = nil
@@ -2251,7 +2652,7 @@ return {
 
 	['sedative'] = {
 		label = 'Sedative',
-		weight = 1,
+		weight = 500,
 		stack = true,
 		close = true,
 		description = nil
@@ -2259,7 +2660,7 @@ return {
 
 	['defib'] = {
 		label = 'Defibrillator',
-		weight = 1,
+		weight = 2000,
 		stack = true,
 		close = true,
 		description = nil
@@ -2267,7 +2668,7 @@ return {
 
 	['medbag'] = {
 		label = 'Medical Bag',
-		weight = 1,
+		weight = 2000,
 		stack = true,
 		close = true,
 		description = nil
@@ -2275,15 +2676,36 @@ return {
 
 	['stretcher'] = {
 		label = 'Foldable Stretcher',
-		weight = 1,
+		weight = 5000,
 		stack = true,
 		close = true,
 		description = nil
 	},
+  
+  ['recoveredbullet'] = {
+    label = 'Recovered Bullet',
+    weight = 10,
+    stack = true,
+    close = false,
+  },
+  
+  ['wheelchair'] = {
+    label = 'Wheel Chair',
+    weight = 4000,
+    stack = false,
+    close = true,
+  },
+  
+  ['crutch'] = {
+		label = 'Crutch',
+		weight = 2000,
+		stack = false,
+		close = true,
+	},
 
 	['suturekit'] = {
 		label = 'Suture Kit',
-		weight = 1,
+		weight = 600,
 		stack = true,
 		close = true,
 		description = nil
@@ -2291,7 +2713,7 @@ return {
 
 	['burncream'] = {
 		label = 'Burn Cream',
-		weight = 1,
+		weight = 300,
 		stack = true,
 		close = true,
 		description = nil
@@ -2299,7 +2721,7 @@ return {
 
 	['tweezers'] = {
 		label = 'Tweezers',
-		weight = 1,
+		weight = 100,
 		stack = true,
 		close = true,
 		description = nil
@@ -2307,7 +2729,7 @@ return {
 
 	['packaged_cocaine'] = {
 		label = 'Packaged Cocaine',
-		weight = 0.3,
+		weight = 300,
 		stack = true,
 		close = true,
 		description = ""
@@ -2315,7 +2737,7 @@ return {
 
 	['untrimmed_weed'] = {
 		label = 'Untrimmed Weed',
-		weight = 0.3,
+		weight = 300,
 		stack = true,
 		close = true,
 		description = ""
@@ -2323,7 +2745,7 @@ return {
 
 	['ammonia'] = {
 		label = 'Ammonia',
-		weight = 1,
+		weight = 500,
 		stack = true,
 		close = true,
 		description = ""
@@ -2331,7 +2753,7 @@ return {
 
 	['processed_meth'] = {
 		label = 'Processed Meth',
-		weight = 0.3,
+		weight = 300,
 		stack = true,
 		close = true,
 		description = ""
@@ -2339,7 +2761,7 @@ return {
 
 	['raw_cocaine'] = {
 		label = 'Raw Cocaine',
-		weight = 0.5,
+		weight = 500,
 		stack = true,
 		close = true,
 		description = ""
@@ -2347,7 +2769,7 @@ return {
 
 	['raw_meth'] = {
 		label = 'Raw Meth',
-		weight = 0.5,
+		weight = 500,
 		stack = true,
 		close = true,
 		description = ""
@@ -2355,7 +2777,7 @@ return {
 
 	['ziplock_bag'] = {
 		label = 'Ziplock Bag',
-		weight = 0.1,
+		weight = 100,
 		stack = true,
 		close = true,
 		description = ""
@@ -2363,7 +2785,7 @@ return {
 
 	['dirty_money_sheets'] = {
 		label = 'Dirty Money Sheets',
-		weight = 0.5,
+		weight = 500,
 		stack = true,
 		close = true,
 		description = ""
@@ -2371,7 +2793,7 @@ return {
 
 	['money_paper'] = {
 		label = 'Money Paper',
-		weight = 0.5,
+		weight = 500,
 		stack = true,
 		close = true,
 		description = ""
@@ -2379,9 +2801,185 @@ return {
 
 	['weed_packaged'] = {
 		label = 'Packaged Weed',
-		weight = 0.3,
+		weight = 300,
 		stack = true,
 		close = true,
 		description = ""
+	},
+
+	['dmv_folder'] = {
+		label = 'DMV Folder',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['muriatic_acid'] = {
+		label = 'Muriatic Acid',
+		weight = 750,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['cocaine'] = {
+		label = 'Cocaine',
+		weight = 250,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['opium'] = {
+		label = 'Opium',
+		weight = 250,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['codeine'] = {
+		label = 'Codeine',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['oxygen'] = {
+		label = 'Oxygen',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['pseudoefedrine'] = {
+		label = 'Pseudoefedrine',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['drink_sprite'] = {
+		label = 'Sprite',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['drug_ecstasy'] = {
+		label = 'Ecstasy',
+		weight = 250,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['drug_lean'] = {
+		label = 'Lean',
+		weight = 250,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['drug_lsd'] = {
+		label = 'LSD',
+		weight = 250,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['drug_meth'] = {
+		label = 'Meth',
+		weight = 250,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['sodium_hydroxide'] = {
+		label = 'Sodium hydroxide',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['green_gelato_cannabis'] = {
+		label = 'Green Gelato Cannabis',
+		weight = 250,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['hydrogen'] = {
+		label = 'Hydrogen',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['unprocessed_weed'] = {
+		label = 'Unprocessed Weed',
+		weight = 300,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['liquid_sulfur'] = {
+		label = 'Liquid Sulfur',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['money_ink'] = {
+		label = 'Money Ink',
+		weight = 200,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['red_sulfur'] = {
+		label = 'Red Sulfur',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['nitrogen'] = {
+		label = 'Nitrogen',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['cannabis'] = {
+		label = 'Cannabis',
+		weight = 250,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['carbon'] = {
+		label = 'Carbon',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = nil
 	},
 }
