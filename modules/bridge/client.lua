@@ -1,5 +1,6 @@
 if not lib then return end
 
+---@diagnostic disable-next-line: duplicate-set-field
 function client.setPlayerData(key, value)
 	PlayerData[key] = value
 	OnPlayerData(key, value)
@@ -34,17 +35,19 @@ function client.onLogout()
 		client.parachute = false
 	end
 
-	if client.dropprops then
-		for _, point in pairs(client.drops) do
+	for _, point in pairs(client.drops) do
+		if point.entity then
 			Utils.DeleteObject(point.entity)
-			point:remove()
 		end
+
+		point:remove()
 	end
 
 	PlayerData.loaded = false
 	client.drops = nil
 
 	client.closeInventory()
+	client.wipeShops()
 	ClearInterval(client.interval)
 	ClearInterval(client.tick)
 	Weapon.Disarm()
