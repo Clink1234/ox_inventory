@@ -72,7 +72,7 @@ setContainerProperties('bag', {
 setContainerProperties('card_binder', {
 	slots = 100,
 	maxWeight = 1000,
-	blacklist = { 
+	whitelist = { 
     'base_set_001',
     'base_set_002',
     'base_set_003',
