@@ -7,6 +7,14 @@ local Utils = require 'modules.utils.client'
 local Weapon = require 'modules.weapon.client'
 local currentWeapon
 
+RegisterNetEvent('ox_inventory:noSteal', function()
+	lib.notify({
+    title = 'Not Allowed',
+    description = 'You can not steal from a locked slot.',
+    type = 'error'
+  })
+end)
+
 exports('getCurrentWeapon', function()
 	return currentWeapon
 end)

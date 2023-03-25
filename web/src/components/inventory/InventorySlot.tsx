@@ -138,11 +138,14 @@ const InventorySlot: React.FC<SlotProps> = ({ inventory, item }) => {
               className={
                 inventory.type === 'player' && item.slot <= 5
                   ? 'item-hotslot-header-wrapper'
-                  : 'item-slot-header-wrapper'
+                  : 'item-hotslot-header-wrapper'
               }
             >
               {inventory.type === 'player' && item.slot <= 5 && (
                 <div className="inventory-slot-number">{item.slot}</div>
+              )}
+              {inventory.type === 'player' && (item.slot == 6 || item.slot == 7 || item.slot == 8) && (
+                <div className={"inventory-slot-number-t"}>🔒</div>
               )}
               <div className="item-slot-info-wrapper">
                 <p>

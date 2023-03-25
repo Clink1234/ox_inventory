@@ -1,4 +1,515 @@
 return {
+  ['alla_vodka'] = {
+		label = 'Alla Vodka',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['bolognese'] = {
+		label = 'Bolognese',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['calamari_marinara'] = {
+		label = 'Calamari Marinara',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['pescatore'] = {
+		label = 'Pescatore',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['calamari'] = {
+		label = 'Calamari',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['clams'] = {
+		label = 'Clams',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['diced_prosciutto'] = {
+		label = 'Diced Prosciutto',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['meatballs'] = {
+		label = 'Meatballs',
+		weight = 300,
+		stack = true,
+		close = true,
+	},
+	['onion'] = {
+		label = 'Onion',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['pasta'] = {
+		label = 'Pasta',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	['shrimps'] = {
+		label = 'Shrimps',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	['squid_rings'] = {
+		label = 'Squid Rings',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	['vodka_sauce'] = {
+		label = 'Vodka Sauce',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	['chocolate_and_vanilla_gelato_ice_cream'] = {
+		label = 'Chocolate And vanilla gelato ice cream',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	['medaly_of_fresh_fruits'] = {
+		label = 'Medely of fresh fruits',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	['tiramisu'] = {
+		label = 'Tiramisu',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	['chocolate_mocha'] = {
+		label = 'Chocolate Mocha',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	['ice_cream'] = {
+		label = 'Ice cream',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	['mascarpone'] = {
+		label = 'Mascarpone',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	['pizza_capricciosa'] = {
+		label = 'Capricciosa',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['pizza_diavola'] = {
+		label = 'Diavola',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['pizza_margherita'] = {
+		label = 'Margherita',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['pizza_marinara'] = {
+		label = 'Marinara',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['pizza_prosciutto_e_funghi'] = {
+		label = 'Prosciutto e funghi',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['pizza_vegetariana'] = {
+		label = 'Vegetariana',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+	['artichokes'] = {
+		label = 'Artichokes',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['aubergines'] = {
+		label = 'Aubergines',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['basil'] = {
+		label = 'Basil',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['garlic'] = {
+		label = 'Garlic',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['ham'] = {
+		label = 'Ham',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['chili'] = {
+		label = 'Chili',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['mozzarella'] = {
+		label = 'Mozzarella',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['mushroom'] = {
+		label = 'Mushroom',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['olives'] = {
+		label = 'Olives',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['oregano'] = {
+		label = 'Oregano',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['parmesan'] = {
+		label = 'Parmesan',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['prosciutto_cotto'] = {
+		label = 'Prosciutto cotto',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['roasted_fresh_vegetables'] = {
+		label = 'Roasted fresh vegetables',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['spici_salami'] = {
+		label = 'Spici salami',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['tomatto_sauce'] = {
+		label = 'Tomatto sauce',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['zucchini'] = {
+		label = 'Zucchini',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['ice'] = {
+		label = 'Ice',
+		weight = 20,
+		stack = true,
+		close = true,
+	},
+	['suger'] = {
+		label = 'Sugar',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['salt'] = {
+		label = 'Salt',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['pizza_base'] = {
+		label = 'Pizza base',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['dough'] = {
+		label = 'Dough',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['oil'] = {
+		label = 'Oil',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['cube_of_yeast'] = {
+		label = 'Cube of yeast',
+		weight = 30,
+		stack = true,
+		close = true,
+	},
+	['flour_packet'] = {
+		label = 'Flour packet',
+		weight = 30,
+		stack = true,
+		close = true,
+	},
+	['empty_cup'] = {
+		label = 'Empty cup',
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	['sprunk'] = {
+		label = 'Sprunk',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['ecola'] = {
+		label = 'eCola',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['ecola_light'] = {
+		label = 'eCola Light',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['drang_o_tang'] = {
+		label = 'Drang o Tang',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['mango'] = {
+		label = 'Mango',
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	['raspberry'] = {
+		label = 'Raspberry',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['blueberry'] = {
+		label = 'Blueberry',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['strawberry'] = {
+		label = 'Strawberry',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['chocolate_ice_cream'] = {
+		label = 'Chocolate ice cream',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['vanilla_ice_cream'] = {
+		label = 'Vanilla ice cream',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['piswasser'] = {
+		label = 'Piswasser',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['am_beer'] = {
+		label = 'A.M.',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['duscbe_gold'] = {
+		label = 'Duscbe Gold',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['logger'] = {
+		label = 'Loger',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['ragga_rum'] = {
+		label = 'Ragga Rum',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['cherenkov'] = {
+		label = 'Cherenkov',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['empty_beer'] = {
+		label = 'Empty beer glass',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['empty_rum'] = {
+		label = 'Empty rum glass',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['espresso'] = {
+		label = 'Espresso',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['milk'] = {
+		label = 'Milk',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['cappuccino'] = {
+		label = 'Cappuccino',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['latte_macchiato'] = {
+		label = 'Latte Macchiato',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['pizza_wood'] = {
+		label = 'Wooden pizza tray',
+		weight = 750,
+		stack = true,
+		close = true,
+	},
+	['bar_bowl'] = {
+		label = 'Bowl',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['bar_bowl_dirty'] = {
+		label = 'Dirty bowl',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['cup'] = {
+		label = 'Cup',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['dirty_cup'] = {
+		label = 'Dirty Cup',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['pizza_wood_dirt'] = {
+		label = 'Dirty Wooden pizza tray',
+		weight = 750,
+		stack = true,
+		close = true,
+	},
+	['empty_rum_dirt'] = {
+		label = 'Dirty rum glass',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['empty_beer_dirt'] = {
+		label = 'Dirty beer glass',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+	['destroyed_cup'] = {
+		label = 'Destroyed cup',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+  
+  ['golf'] = {
+		label = 'Golf Ball',
+		weight = 250,
+		stack = true,
+	},
+  
+  ['golf_yellow'] = {
+		label = 'Yellow Golf Ball',
+		weight = 250,
+		stack = true,
+	},
+  
+  ['golf_green'] = {
+		label = 'Green Golf Ball',
+		weight = 250,
+		stack = true,    
+	},
+  
+  ['golf_pink'] = {
+		label = 'Red Golf Ball',
+		weight = 250,
+		stack = true,
+	},
+  
   ['carwash_coupon'] = {
 		label = 'Carwash Coupon',
     description = 'Free car wash!',
@@ -706,13 +1217,9 @@ return {
 	['bandage'] = {
 		label = 'Bandage',
 		weight = 115,
-		client = {
-			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
-			prop = { model = `prop_rolled_sock_02`, pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
-			disable = { move = true, car = true, combat = true },
-			usetime = 2500,
-      event = "battlepass:bandage"
-		}
+		stack = true,
+		close = true,
+		description = nil,
 	},
 
 	['black_money'] = {
@@ -810,16 +1317,10 @@ return {
 
 	['water'] = {
 		label = 'Water',
-		weight = 500,
-		client = {
-			status = { thirst = 400000 },
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
-			usetime = 2500,
-			cancel = true,
-			notification = 'You drank some refreshing water',
-      event = "battlepass:water"
-		}
+		weight = 350,
+    stack = true,
+		close = true,
+		description = nil,
 	},
 
 	['radio'] = {
@@ -1750,10 +2251,7 @@ return {
 		weight = 250,
 		stack = true,
 		close = true,
-		description = nil,
-    client = {
-      event = "battlepass:beer"
-		}
+		description = nil
 	},
 
 	['bleach'] = {
@@ -2015,9 +2513,6 @@ return {
 		stack = true,
 		close = true,
 		description = nil,
-    client = {
-      event = "battlepass:chicken"
-		}
 	},
 
 	['garbage_bag'] = {
@@ -2810,7 +3305,7 @@ return {
 	['dmv_folder'] = {
 		label = 'DMV Folder',
 		weight = 200,
-		stack = true,
+		stack = false,
 		close = true,
 		description = nil
 	},
