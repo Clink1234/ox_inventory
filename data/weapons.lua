@@ -1038,9 +1038,9 @@ return {
 		},
 
 		['ammo-38'] = {
-			label = '.38 Long Colt',
+			label = '.38 LC',
       description = '.38 Long Colt',
-			weight = 10,
+			weight = 15,
 		},
 
 		['ammo-44'] = {
@@ -1052,19 +1052,24 @@ return {
 		['ammo-45'] = {
 			label = '.45 ACP',
       description = '.45 ACP',
-			weight = 9,
+			weight = 15,
 		},
 
 		['ammo-50'] = {
 			label = '.50 AE',
       description = '.50 Action Express',
-			weight = 19,
+			weight = 45,
 		},
 
 		['ammo-9'] = {
 			label = '9mm',
       description = '9x19mm Parabellum',
-			weight = 8,
+			weight = 7,
+		},
+
+		['ammo-firework'] = {
+			label = 'Firework',
+			weight = 200,
 		},
 
 		['ammo-flare'] = {
@@ -1072,28 +1077,46 @@ return {
 			weight = 38,
 		},
 
+		['ammo-grenade'] = {
+			label = '40mm Explosive',
+			weight = 400,
+		},
+
 		['ammo-heavysniper'] = {
 			label = '.50 BMG',
       description = '.50 BMG',
-			weight = 45,
+			weight = 51,
+		},
+
+		['ammo-laser'] = {
+			label = 'Laser charge',
+			weight = 1,
 		},
 
 		['ammo-musket'] = {
-			label = 'Musket Ball',
-      description = 'Musket Ball',
-			weight = 30,
+			weight = 38,
+		},
+
+		['ammo-railgun'] = {
+			label = 'Musket round',
+			weight = 150,
 		},
 
 		['ammo-rifle'] = {
-			label = '5.56',
+			label = '5.56x45',
       description = '5.56x45mm NATO',
 			weight = 4,
 		},
 
 		['ammo-rifle2'] = {
-			label = '7.62',
+			label = '7.62x39',
       description = '7.62x39mm Soviet',
 			weight = 8,
+		},
+
+		['ammo-rocket'] = {
+			label = 'Rocket',
+			weight = 500,
 		},
 
 		['ammo-shotgun'] = {
@@ -1103,9 +1126,9 @@ return {
 		},
 
 		['ammo-sniper'] = {
-			label = '7.62 NATO',
+			label = '7.62x51',
       description = '7.62x51mm NATO',
-			weight = 11,
+			weight = 9,
 		},
 
 		['ammo-emp'] = {

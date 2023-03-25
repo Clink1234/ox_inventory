@@ -120,7 +120,7 @@ Items.containers = {
 		}
 	}
 }
->>>>>>> 33eb3ce7 (Changes from server)
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
 
 -- Possible metadata when creating garbage
 local trash = {

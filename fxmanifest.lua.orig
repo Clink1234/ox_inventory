@@ -27,7 +27,7 @@ shared_scripts {
 	'@ox_lib/init.lua',
 	'modules/init.lua'
 }
->>>>>>> eb3c663b (Updates)
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
 
 server_scripts {
 	'@oxmysql/lib/MySQL.lua',

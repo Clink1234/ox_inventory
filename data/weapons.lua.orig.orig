@@ -1,12 +1,9 @@
 return {
 	Weapons = {
+
 		['WEAPON_ADVANCEDRIFLE'] = {
 			label = 'Advanced Rifle',
-<<<<<<< HEAD
 			weight = 3180,
-=======
-			weight = 3100,
->>>>>>> eb3c663b (Updates)
 			durability = 0.03,
 			ammoname = 'ammo-rifle',
 			caliber = '5.56x45mm NATO',
@@ -14,11 +11,7 @@ return {
 
 		['WEAPON_APPISTOL'] = {
 			label = 'AP Pistol',
-<<<<<<< HEAD
 			weight = 1220,
-=======
-			weight = 1400,
->>>>>>> eb3c663b (Updates)
 			durability = 0.1,
 			ammoname = 'ammo-9',
 			caliber = '9x19mm Parabellum',
@@ -26,11 +19,7 @@ return {
 
 		['WEAPON_ASSAULTRIFLE'] = {
 			label = 'Assault Rifle',
-<<<<<<< HEAD
 			weight = 3470,
-=======
-			weight = 4500,
->>>>>>> eb3c663b (Updates)
 			durability = 0.03,
 			ammoname = 'ammo-rifle2',
 			caliber = '7.62x39mm Soviet',
@@ -38,11 +27,7 @@ return {
 
 		['WEAPON_ASSAULTRIFLE_MK2'] = {
 			label = 'Assault Rifle MK2',
-<<<<<<< HEAD
 			weight = 3300,
-=======
-			weight = 2950,
->>>>>>> eb3c663b (Updates)
 			durability = 0.03,
 			ammoname = 'ammo-rifle2',
 			caliber = '7.62x39mm Soviet',
@@ -50,11 +35,7 @@ return {
 
 		['WEAPON_ASSAULTSHOTGUN'] = {
 			label = 'Assault Shotgun',
-<<<<<<< HEAD
 			weight = 3100,
-=======
-			weight = 5200,
->>>>>>> eb3c663b (Updates)
 			durability = 0.05,
 			ammoname = 'ammo-shotgun',
 			caliber = '12 Gauge',
@@ -62,11 +43,7 @@ return {
 
 		['WEAPON_ASSAULTSMG'] = {
 			label = 'Assault SMG',
-<<<<<<< HEAD
 			weight = 2850,
-=======
-			weight = 2900,
->>>>>>> eb3c663b (Updates)
 			durability = 0.05,
 			ammoname = 'ammo-rifle',
 			caliber = '5.56x45mm NATO',
@@ -86,11 +63,7 @@ return {
 
 		['WEAPON_BATTLEAXE'] = {
 			label = 'Battle Axe',
-<<<<<<< HEAD
 			weight = 1200,
-=======
-			weight = 6500,
->>>>>>> eb3c663b (Updates)
 			durability = 0.1,
 		},
 
@@ -154,25 +127,21 @@ return {
 =======
 			weight = 800,
 			durability = 0.2,
-			ammoname = 'ammo-9'
+			ammoname = 'ammo-9',
+			caliber = '9x19mm Parabellum',
 		},
 
 		['WEAPON_PISTOLXM3'] = {
 			label = 'WM 29 Pistol',
 			weight = 969,
->>>>>>> eb3c663b (Updates)
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
 			durability = 0.2,
-			ammoname = 'ammo-9',
-			caliber = '9x19mm Parabellum',
+			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_COMBATMG'] = {
 			label = 'Combat MG',
-<<<<<<< HEAD
 			weight = 10000,
-=======
-			weight = 7500,
->>>>>>> eb3c663b (Updates)
 			durability = 0.02,
 			ammoname = 'ammo-rifle',
 			caliber = '5.56x45mm NATO'
@@ -180,11 +149,7 @@ return {
 
 		['WEAPON_COMBATMG_MK2'] = {
 			label = 'Combat MG MK2',
-<<<<<<< HEAD
 			weight = 10500,
-=======
-			weight = 8000,
->>>>>>> eb3c663b (Updates)
 			durability = 0.02,
 			ammoname = 'ammo-rifle2',
 			caliber = '7.62x39mm Soviet',
@@ -192,11 +157,7 @@ return {
 
 		['WEAPON_COMBATPDW'] = {
 			label = 'Combat PDW',
-<<<<<<< HEAD
 			weight = 2700,
-=======
-			weight = 2300,
->>>>>>> eb3c663b (Updates)
 			durability = 0.1,
 			ammoname = 'ammo-9',
 			caliber = '9x19mm Parabellum',
@@ -204,11 +165,7 @@ return {
 
 		['WEAPON_COMBATPISTOL'] = {
 			label = 'Combat Pistol',
-<<<<<<< HEAD
 			weight = 970,
-=======
-			weight = 785,
->>>>>>> eb3c663b (Updates)
 			durability = 0.2,
 			ammoname = 'ammo-9',
 			caliber = '9x19mm Parabellum',
@@ -222,22 +179,9 @@ return {
 			caliber = '12 Gauge',
 		},
 
-<<<<<<< HEAD
 		['WEAPON_COMPACTRIFLE'] = {
 			label = 'Compact Rifle',
 			weight = 2700,
-=======
-		['WEAPON_COMPACTLAUNCHER'] = {
-			label = 'Compact Grenade Launcher',
-			weight = 2500,
-			durability = 0.05,
-			ammoname = 'ammo-grenade'
-		},
-
-		['WEAPON_COMPACTRIFLE'] = {
-			label = 'Compact Rifle',
-			weight = 3600,
->>>>>>> eb3c663b (Updates)
 			durability = 0.05,
 			ammoname = 'ammo-rifle2',
 			caliber = '7.62x39mm Soviet',
@@ -288,26 +232,12 @@ return {
 			label = 'Firework Launcher',
 			weight = 1000,
 			durability = 0.5,
-<<<<<<< HEAD
-			caliber = 'Firework Packaging',
-=======
-<<<<<<< HEAD
-			caliber = 'Firework Packaging',
-=======
-			ammoname = 'ammo-firework'
->>>>>>> 2.25.0
->>>>>>> eb3c663b (Updates)
 		},
 
 		['WEAPON_FLARE'] = {
 			label = 'Flare',
-<<<<<<< HEAD
 			weight = 235,
-=======
-			weight = 250,
->>>>>>> eb3c663b (Updates)
 			throwable = true,
-			caliber = 'Flare Cap',
 		},
 
 		['WEAPON_FLAREGUN'] = {
@@ -332,25 +262,11 @@ return {
 
 		['WEAPON_GRENADE'] = {
 			label = 'Grenade',
-<<<<<<< HEAD
 			weight = 600,
-=======
-			weight = 400,
->>>>>>> eb3c663b (Updates)
 			throwable = true,
 			caliber = 'Grenade Pin',
 		},
 
-<<<<<<< HEAD
-=======
-		['WEAPON_GRENADELAUNCHER'] = {
-			label = 'Grenade Launcher',
-			weight = 6500,
-			durability = 0.05,
-			ammoname = 'ammo-grenade'
-		},
-
->>>>>>> eb3c663b (Updates)
 		['WEAPON_GUSENBERG'] = {
 			label = 'Gusenberg',
 			weight = 4900,
@@ -373,11 +289,7 @@ return {
 
 		['WEAPON_HEAVYRIFLE'] = {
 			label = 'Heavy Rifle',
-<<<<<<< HEAD
 			weight = 2750,
-=======
-			weight = 3300,
->>>>>>> eb3c663b (Updates)
 			durability = 0.2,
 			ammoname = 'ammo-sniper',
 			caliber = '7.62x51mm NATO',
@@ -393,16 +305,6 @@ return {
 			weight = 1200,
 		},
 
-<<<<<<< HEAD
-=======
-		['WEAPON_HOMINGLAUNCHER'] = {
-			label = 'Homing Launcher',
-			weight = 10000,
-			durability = 0.6,
-			ammoname = 'ammo-rocket'
-		},
-
->>>>>>> eb3c663b (Updates)
 		['WEAPON_FERTILIZERCAN'] = {
 			label = 'Fertilizer Can',
 			weight = 12000,
@@ -426,11 +328,7 @@ return {
 
 		['WEAPON_HEAVYSNIPER'] = {
 			label = 'Heavy Sniper',
-<<<<<<< HEAD
 			weight = 14000,
-=======
-			weight = 12700,
->>>>>>> eb3c663b (Updates)
 			durability = 0.5,
 			ammoname = 'ammo-heavysniper',
 			caliber = '.50 BMG',
@@ -438,11 +336,7 @@ return {
 
 		['WEAPON_HEAVYSNIPER_MK2'] = {
 			label = 'Heavy Sniper MK2',
-<<<<<<< HEAD
 			weight = 10432,
-=======
-			weight = 14000,
->>>>>>> eb3c663b (Updates)
 			durability = 0.5,
 			ammoname = 'ammo-heavysniper',
 			caliber = '.50 BMG',
@@ -491,11 +385,7 @@ return {
 		},
 
 		['WEAPON_MARKSMANRIFLE_MK2'] = {
-<<<<<<< HEAD
 			label = 'Marksman Rifle',
-=======
-			label = 'Marksman Rifle MK2',
->>>>>>> eb3c663b (Updates)
 			weight = 4000,
 			durability = 0.4,
 			ammoname = 'ammo-sniper',
@@ -510,22 +400,9 @@ return {
 			caliber = '7.62x39mm Soviet',
 		},
 
-<<<<<<< HEAD
 		['WEAPON_MICROSMG'] = {
 			label = 'Micro SMG',
 			weight = 4000,
-=======
-		['WEAPON_MINIGUN'] = {
-			label = 'Minigun',
-			weight = 38500,
-			durability = 0.1,
-			ammoname = 'ammo-rifle2'
-		},
-
-		['WEAPON_MICROSMG'] = {
-			label = 'Micro SMG',
-			weight = 3000,
->>>>>>> eb3c663b (Updates)
 			durability = 0.1,
 			ammoname = 'ammo-45',
 			caliber = '.45 ACP',
@@ -541,11 +418,7 @@ return {
 
 		['WEAPON_MINISMG'] = {
 			label = 'Mini SMG',
-<<<<<<< HEAD
 			weight = 2770,
-=======
-			weight = 1270,
->>>>>>> eb3c663b (Updates)
 			durability = 0.05,
 			ammoname = 'ammo-9',
 			caliber = '9x19mm Parabellum',
@@ -567,11 +440,7 @@ return {
 
 		['WEAPON_NAVYREVOLVER'] = {
 			label = 'Navy Revolver',
-<<<<<<< HEAD
 			weight = 2000,
-=======
-			weight = 4000,
->>>>>>> eb3c663b (Updates)
 			durability = 0.2,
 			ammoname = 'ammo-38',
 			caliber = '.38 Long Colt',
@@ -604,11 +473,7 @@ return {
 
 		['WEAPON_PISTOL'] = {
 			label = 'Pistol',
-<<<<<<< HEAD
 			weight = 970,
-=======
-			weight = 1130,
->>>>>>> eb3c663b (Updates)
 			durability = 0.1,
 			ammoname = 'ammo-9',
 			caliber = '9x19mm Parabellum',
@@ -624,11 +489,7 @@ return {
 
 		['WEAPON_PISTOL_MK2'] = {
 			label = 'Pistol MK2',
-<<<<<<< HEAD
 			weight = 970,
-=======
-			weight = 1000,
->>>>>>> eb3c663b (Updates)
 			durability = 0.5,
 			ammoname = 'ammo-9',
 			caliber = '9x19mm Parabellum',
@@ -640,15 +501,6 @@ return {
 			durability = 0.1,
 		},
 
-<<<<<<< HEAD
-=======
-		['WEAPON_CANDYCANE'] = {
-			label = 'Candy Cane',
-			weight = 85,
-			durability = 0.1,
-		},
-
->>>>>>> eb3c663b (Updates)
 		['WEAPON_PROXMINE'] = {
 			label = 'Proximity Mine',
 			weight = 2500,
@@ -671,36 +523,6 @@ return {
 			caliber = '12 Gauge',
 		},
 
-<<<<<<< HEAD
-=======
-		['WEAPON_RAILGUN'] = {
-			label = 'Railgun',
-			weight = 3570,
-			durability = 0.5,
-			ammoname = 'ammo-railgun'
-		},
-
-		['WEAPON_RAILGUNXM3'] = {
-			label = 'Railgun XM3',
-			weight = 3570,
-			durability = 0.5,
-			ammoname = 'ammo-railgun'
-		},
-
-		['WEAPON_RAYCARBINE'] = {
-			label = 'Unholy Hellbringer',
-			weight = 3620,
-			durability = 0.2,
-			ammoname = 'ammo-laser'
-		},
-
-		['WEAPON_RAYPISTOL'] = {
-			label = 'Up-n-Atomizer',
-			weight = 1540,
-			durability = 0.5
-		},
-
->>>>>>> eb3c663b (Updates)
 		['WEAPON_REVOLVER'] = {
 			label = 'Revolver',
 			weight = 2260,
@@ -711,26 +533,20 @@ return {
 
 		['WEAPON_REVOLVER_MK2'] = {
 			label = 'Revolver MK2',
-<<<<<<< HEAD
 			weight = 1500,
-=======
-			weight = 2600,
->>>>>>> eb3c663b (Updates)
 			durability = 0.1,
 			ammoname = 'ammo-44',
-			caliber = '.44 Magnum',
 		},
 
 <<<<<<< HEAD
 =======
 		['WEAPON_RPG'] = {
-			label = 'RPG',
 			weight = 5000,
 			durability = 0.3,
 			ammoname = 'ammo-rocket'
 		},
 
->>>>>>> eb3c663b (Updates)
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
 		['WEAPON_SAWNOFFSHOTGUN'] = {
 			label = 'Sawn Off Shotgun',
 			weight = 2380,
@@ -764,11 +580,7 @@ return {
 
 		['WEAPON_SNIPERRIFLE'] = {
 			label = 'Sniper Rifle',
-<<<<<<< HEAD
 			weight = 6500,
-=======
-			weight = 5000,
->>>>>>> eb3c663b (Updates)
 			durability = 0.5,
 			ammoname = 'ammo-sniper',
 			caliber = '7.62x51mm NATO',
@@ -831,7 +643,7 @@ return {
 			caliber = 'Taser AFID',
 		},
 
-		['WEAPON_AUTOSHOTGUN'] = {
+		['WEAPON_SWEEPERSHOTGUN'] = {
 			label = 'Sweeper Shotgun',
 			weight = 4400,
 			durability = 0.05,
@@ -840,11 +652,7 @@ return {
 		},
 
 		['WEAPON_SWITCHBLADE'] = {
-<<<<<<< HEAD
 			label = 'Switch Blade',
-=======
-			label = 'Switchblade',
->>>>>>> eb3c663b (Updates)
 			weight = 300,
 			durability = 0.1,
 			anim = { 'anim@melee@switchblade@holster', 'unholster', 200, 'anim@melee@switchblade@holster', 'holster', 600 },
@@ -852,26 +660,20 @@ return {
 
 		['WEAPON_VINTAGEPISTOL'] = {
 			label = 'Vintage Pistol',
-<<<<<<< HEAD
 			weight = 100,
-=======
-			weight = 700,
->>>>>>> eb3c663b (Updates)
 			durability = 0.1,
 			ammoname = 'ammo-9',
-			caliber = '9x19mm Parabellum',
 		},
 
 <<<<<<< HEAD
 =======
 		['WEAPON_RAYMINIGUN'] = {
-			label = 'Widowmaker',
 			weight = 7000,
 			durability = 0.1,
 			ammoname = 'ammo-laser'
 		},
 
->>>>>>> eb3c663b (Updates)
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
 		['WEAPON_WRENCH'] = {
 			label = 'Wrench',
 			weight = 2500,
@@ -893,15 +695,6 @@ return {
 			ammoname = 'ammo-rifle',
 			caliber = '5.56x45mm NATO'
 		},
-<<<<<<< HEAD
-=======
-
-		['WEAPON_TEARGAS'] = {
-			label = 'Tear Gas',
-			weight = 600,
-			throwable = true,
-		},
->>>>>>> eb3c663b (Updates)
 	},
 
 	Components = {
@@ -910,17 +703,7 @@ return {
 			weight = 120,
 			type = 'flashlight',
 			client = {
-<<<<<<< HEAD
 				component = { `COMPONENT_AT_PI_FLSH`, `COMPONENT_AT_AR_FLSH`, `COMPONENT_AT_PI_FLSH_02`, `COMPONENT_AT_AR_FLSH_REH` },
-=======
-				component = {
-					`COMPONENT_AT_AR_FLSH`,
-					`COMPONENT_AT_AR_FLSH_REH`,
-					`COMPONENT_AT_PI_FLSH`,
-					`COMPONENT_AT_PI_FLSH_02`,
-					`COMPONENT_AT_PI_FLSH_03`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -928,20 +711,9 @@ return {
 		['at_suppressor_light'] = {
 			label = 'Suppressor',
 			weight = 280,
-<<<<<<< HEAD
 			type = 'barrel',
 			client = {
 				component = {`COMPONENT_AT_PI_SUPP`, `COMPONENT_AT_PI_SUPP_02`},
-=======
-			type = 'muzzle',
-			client = {
-				component = {
-					`COMPONENT_AT_PI_SUPP`,
-					`COMPONENT_AT_PI_SUPP_02`,
-					`COMPONENT_CERAMICPISTOL_SUPP`,
-					`COMPONENT_PISTOLXM3_SUPP`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -949,41 +721,19 @@ return {
 		['at_suppressor_heavy'] = {
 			label = 'Tactical Suppressor',
 			weight = 280,
-<<<<<<< HEAD
 			type = 'barrel',
 			client = {
 				component = {`COMPONENT_AT_AR_SUPP`, `COMPONENT_AT_AR_SUPP_02`, `COMPONENT_AT_SR_SUPP`, `COMPONENT_AT_SR_SUPP_03`},
-=======
-			type = 'muzzle',
-			client = {
-				component = {
-					`COMPONENT_AT_AR_SUPP`,
-					`COMPONENT_AT_AR_SUPP_02`,
-					`COMPONENT_AT_SR_SUPP`,
-					`COMPONENT_AT_SR_SUPP_03`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_grip'] = {
-<<<<<<< HEAD
 			label = 'Grip Tape',
 			type = 'grip',
 			weight = 280,
 			client = {
 				component = {`COMPONENT_AT_AR_AFGRIP`, `COMPONENT_AT_AR_AFGRIP_02`},
-=======
-			label = 'Grip',
-			type = 'grip',
-			weight = 280,
-			client = {
-				component = {
-					`COMPONENT_AT_AR_AFGRIP`,
-					`COMPONENT_AT_AR_AFGRIP_02`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -993,20 +743,7 @@ return {
 			type = 'barrel',
 			weight = 280,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_AT_SR_BARREL_01`,`COMPONENT_AT_MRFL_BARREL_02`,`COMPONENT_AT_MG_BARREL_02`,`COMPONENT_AT_SC_BARREL_02`, `COMPONENT_AT_CR_BARREL_02`, `COMPONENT_AT_BP_BARREL_02`},
-=======
-				component = {
-					`COMPONENT_AT_AR_BARREL_02`,
-					`COMPONENT_AT_BP_BARREL_02`,
-					`COMPONENT_AT_CR_BARREL_02`,
-					`COMPONENT_AT_MG_BARREL_02`,
-					`COMPONENT_AT_MRFL_BARREL_02`,
-					`COMPONENT_AT_SB_BARREL_02`,
-					`COMPONENT_AT_SC_BARREL_02`,
-					`COMPONENT_AT_SR_BARREL_02`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1016,22 +753,7 @@ return {
 			type = 'magazine',
 			weight = 280,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_PISTOL_CLIP_02`, `COMPONENT_APPISTOL_CLIP_02`, `COMPONENT_PISTOL_MK2_CLIP_02`, `COMPONENT_SNSPISTOL_MK2_CLIP_02`, `COMPONENT_COMBATPISTOL_CLIP_02`, `COMPONENT_PISTOL50_CLIP_02`, `COMPONENT_HEAVYPISTOL_CLIP_02`, `COMPONENT_SNSPISTOL_CLIP_02`, `COMPONENT_VINTAGEPISTOL_CLIP_02`},
-=======
-				component = {
-					`COMPONENT_APPISTOL_CLIP_02`,
-					`COMPONENT_CERAMICPISTOL_CLIP_02`,
-					`COMPONENT_COMBATPISTOL_CLIP_02`,
-					`COMPONENT_HEAVYPISTOL_CLIP_02`,
-					`COMPONENT_PISTOL_CLIP_02`,
-					`COMPONENT_PISTOL_MK2_CLIP_02`,
-					`COMPONENT_PISTOL50_CLIP_02`,
-					`COMPONENT_SNSPISTOL_CLIP_02`,
-					`COMPONENT_SNSPISTOL_MK2_CLIP_02`,
-					`COMPONENT_VINTAGEPISTOL_CLIP_02`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1041,19 +763,7 @@ return {
 			type = 'magazine',
 			weight = 280,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_SMG_CLIP_02`, `COMPONENT_SMG_MK2_CLIP_02`, `COMPONENT_ASSAULTSMG_CLIP_02`, `COMPONENT_MICROSMG_CLIP_02`, `COMPONENT_MINISMG_CLIP_02`, `COMPONENT_COMBATPDW_CLIP_02`, `COMPONENT_MACHINEPISTOL_CLIP_02`},
-=======
-				component = {
-					`COMPONENT_ASSAULTSMG_CLIP_02`,
-					`COMPONENT_COMBATPDW_CLIP_02`,
-					`COMPONENT_MACHINEPISTOL_CLIP_02`,
-					`COMPONENT_MICROSMG_CLIP_02`,
-					`COMPONENT_MINISMG_CLIP_02`,
-					`COMPONENT_SMG_CLIP_02`,
-					`COMPONENT_SMG_MK2_CLIP_02`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1063,14 +773,7 @@ return {
 			type = 'magazine',
 			weight = 280,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSHOTGUN_CLIP_02`, `COMPONENT_ASSAULTSHOTGUN_CLIP_02`},
-=======
-				component = {
-					`COMPONENT_ASSAULTSHOTGUN_CLIP_02`,
-					`COMPONENT_HEAVYSHOTGUN_CLIP_02`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1080,25 +783,7 @@ return {
 			type = 'magazine',
 			weight = 280,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_ASSAULTRIFLE_CLIP_02`, `COMPONENT_CARBINERIFLE_CLIP_02`, `COMPONENT_MILITARYRIFLE_CLIP_02`, `COMPONENT_ADVANCEDRIFLE_CLIP_02`, `COMPONENT_SPECIALCARBINE_CLIP_02`, `COMPONENT_BULLPUPRIFLE_CLIP_02`, `COMPONENT_COMPACTRIFLE_CLIP_02`, `COMPONENT_ASSAULTRIFLE_MK2_CLIP_02`, `COMPONENT_CARBINERIFLE_MK2_CLIP_02`, `COMPONENT_SPECIALCARBINE_MK2_CLIP_02`, `COMPONENT_BULLPUPRIFLE_MK2_CLIP_02`},
-=======
-				component = {
-					`COMPONENT_ADVANCEDRIFLE_CLIP_02`,
-					`COMPONENT_ASSAULTRIFLE_CLIP_02`,
-					`COMPONENT_ASSAULTRIFLE_MK2_CLIP_02`,
-					`COMPONENT_BULLPUPRIFLE_CLIP_02`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CLIP_02`,
-					`COMPONENT_CARBINERIFLE_CLIP_02`,
-					`COMPONENT_CARBINERIFLE_MK2_CLIP_02`,
-					`COMPONENT_COMPACTRIFLE_CLIP_02`,
-					`COMPONENT_HEAVYRIFLE_CLIP_02`,
-					`COMPONENT_MILITARYRIFLE_CLIP_02`,
-					`COMPONENT_SPECIALCARBINE_CLIP_02`,
-					`COMPONENT_SPECIALCARBINE_MK2_CLIP_02`,
-					`COMPONENT_TACTICALRIFLE_CLIP_02`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1108,16 +793,7 @@ return {
 			type = 'magazine',
 			weight = 280,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_MG_CLIP_02`, `COMPONENT_COMBATMG_CLIP_02`, `COMPONENT_GUSENBERG_CLIP_02`, `COMPONENT_COMBATMG_MK2_CLIP_02`},
-=======
-				component = {
-					`COMPONENT_GUSENBERG_CLIP_02`,
-					`COMPONENT_MG_CLIP_02`,
-					`COMPONENT_COMBATMG_CLIP_02`,
-					`COMPONENT_COMBATMG_MK2_CLIP_02`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1127,173 +803,67 @@ return {
 			type = 'magazine',
 			weight = 280,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_MARKSMANRIFLE_CLIP_02`, `COMPONENT_HEAVYSNIPER_MK2_CLIP_02`, `COMPONENT_MARKSMANRIFLE_MK2_CLIP_02`},
-=======
-				component = {
-					`COMPONENT_HEAVYSNIPER_MK2_CLIP_02`,
-					`COMPONENT_MARKSMANRIFLE_CLIP_02`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CLIP_02`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_clip_drum_smg'] = {
-<<<<<<< HEAD
 			label = 'SMG Drum Clip',
 			type = 'magazine',
 			weight = 280,
 			client = {
 				component = {`COMPONENT_MACHINEPISTOL_CLIP_03`, `COMPONENT_SMG_CLIP_03`, `COMPONENT_COMBATPDW_CLIP_03`},
-=======
-			label = 'SMG Drum',
-			type = 'magazine',
-			weight = 280,
-			client = {
-				component = {
-					`COMPONENT_COMBATPDW_CLIP_03`,
-					`COMPONENT_MACHINEPISTOL_CLIP_03`,
-					`COMPONENT_SMG_CLIP_03`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_clip_drum_shotgun'] = {
-<<<<<<< HEAD
 			label = 'Shotgun Drum Clip',
 			type = 'magazine',
 			weight = 280,
 			client = {
 				component = {`COMPONENT_HEAVYSHOTGUN_CLIP_03`},
-=======
-			label = 'Shotgun Drum',
-			type = 'magazine',
-			weight = 280,
-			client = {
-				component = {
-					`COMPONENT_HEAVYSHOTGUN_CLIP_03`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_clip_drum_rifle'] = {
-<<<<<<< HEAD
 			label = 'Rifle Drum Clip',
 			type = 'magazine',
 			weight = 280,
 			client = {
 				component = {`COMPONENT_COMPACTRIFLE_CLIP_03`, `COMPONENT_CARBINERIFLE_CLIP_03`, `COMPONENT_SPECIALCARBINE_CLIP_03`},
-=======
-			label = 'Rifle Drum',
-			type = 'magazine',
-			weight = 280,
-			client = {
-				component = {
-					`COMPONENT_ASSAULTRIFLE_CLIP_03`,
-					`COMPONENT_COMPACTRIFLE_CLIP_03`,
-					`COMPONENT_CARBINERIFLE_CLIP_03`,
-					`COMPONENT_SPECIALCARBINE_CLIP_03`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_compensator'] = {
 			label = 'Compensator',
-<<<<<<< HEAD
 			type = 'barrel',
 			weight = 280,
 			client = {
 				component = {`COMPONENT_AT_PI_COMP_02`, `COMPONENT_AT_PI_COMP_03`, `COMPONENT_AT_PI_COMP`},
-=======
-			type = 'muzzle',
-			weight = 280,
-			client = {
-				component = {
-					`COMPONENT_AT_PI_COMP`,
-					`COMPONENT_AT_PI_COMP_02`,
-					`COMPONENT_AT_PI_COMP_03`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_scope_macro'] = {
-			label = 'Macro Scope',
-			type = 'sight',
-			weight = 280,
-			client = {
-				component = {
-					`COMPONENT_AT_SCOPE_MACRO`,
-					`COMPONENT_AT_SCOPE_MACRO_02`,
-					`COMPONENT_AT_SCOPE_MACRO_MK2`,
-					`COMPONENT_AT_SCOPE_MACRO_02_MK2`,
-					`COMPONENT_AT_SCOPE_MACRO_02_SMG_MK2`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_scope_small'] = {
-<<<<<<< HEAD
 			label = 'Sight',
 			type = 'sight',
 			weight = 280,
 			client = {
 				component = {`COMPONENT_AT_SIGHTS`, `COMPONENT_AT_SCOPE_MACRO`, `COMPONENT_AT_SCOPE_MACRO_02`, `COMPONENT_AT_SCOPE_MACRO_02_MK2`, `COMPONENT_AT_SCOPE_MACRO`, `COMPONENT_AT_SCOPE_SMALL`, `COMPONENT_AT_SCOPE_SMALL_02`, `COMPONENT_AT_SCOPE_SMALL_MK2`, `COMPONENT_AT_SCOPE_MACRO_MK2`},
-=======
-			label = 'Small Scope',
-			type = 'sight',
-			weight = 280,
-			client = {
-				component = {
-					`COMPONENT_AT_SCOPE_SMALL`,
-					`COMPONENT_AT_SCOPE_SMALL_02`,
-					`COMPONENT_AT_SCOPE_SMALL_MK2`,
-					`COMPONENT_AT_SCOPE_SMALL_SMG_MK2`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_scope_medium'] = {
-<<<<<<< HEAD
 			label = 'Scope',
 			type = 'sight',
 			weight = 280,
 			client = {
 				component = {`COMPONENT_AT_SCOPE_MEDIUM`, `COMPONENT_AT_SCOPE_MEDIUM_MK2`, `COMPONENT_AT_PI_RAIL_02`, `COMPONENT_AT_PI_RAIL`},
-=======
-			label = 'Medium Scope',
-			type = 'sight',
-			weight = 280,
-			client = {
-				component = {
-					`COMPONENT_AT_SCOPE_MEDIUM`,
-					`COMPONENT_AT_SCOPE_MEDIUM_MK2`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_scope_large'] = {
-			label = 'Large Scope',
-			type = 'sight',
-			weight = 280,
-			client = {
-				component = {
-					`COMPONENT_AT_SCOPE_LARGE_MK2`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1303,7 +873,6 @@ return {
 			type = 'sight',
 			weight = 280,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_AT_SCOPE_MAX`},
 				usetime = 2500
 			}
@@ -1315,11 +884,6 @@ return {
 			weight = 280,
 			client = {
 				component = {`COMPONENT_AT_SCOPE_LARGE_MK2`},
-=======
-				component = {
-					`COMPONENT_AT_SCOPE_MAX`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1329,13 +893,7 @@ return {
 			type = 'sight',
 			weight = 420,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_AT_SCOPE_NV`},
-=======
-				component = {
-					`COMPONENT_AT_SCOPE_NV`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1345,18 +903,11 @@ return {
 			type = 'sight',
 			weight = 420,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_AT_SCOPE_THERMAL`},
-=======
-				component = {
-					`COMPONENT_AT_SCOPE_THERMAL`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
-<<<<<<< HEAD
 		['at_muzzle_squared'] = {
 			label = 'Squared Muzzle',
 			type = 'barrel',
@@ -1373,406 +924,86 @@ return {
 			weight = 80,
 			client = {
 				component = {`COMPONENT_AT_MUZZLE_09`},
-=======
-		['at_scope_holo'] = {
-			label = 'Holographic Sight',
-			type = 'sight',
-			weight = 280,
-			client = {
-				component = {
-					`COMPONENT_AT_PI_RAIL`,
-					`COMPONENT_AT_PI_RAIL_02`,
-					`COMPONENT_AT_SIGHTS`,
-					`COMPONENT_AT_SIGHTS_SMG`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_muzzle_flat'] = {
 			label = 'Flat Muzzle',
-<<<<<<< HEAD
 			type = 'barrel',
 			weight = 80,
 			client = {
 				component = {`COMPONENT_AT_MUZZLE_01`},
-=======
-			type = 'muzzle',
-			weight = 80,
-			client = {
-				component = {
-					`COMPONENT_AT_MUZZLE_01`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_muzzle_tactical'] = {
 			label = 'Tactical Muzzle',
-<<<<<<< HEAD
 			type = 'barrel',
 			weight = 80,
 			client = {
 				component = {`COMPONENT_AT_MUZZLE_02`},
-=======
-			type = 'muzzle',
-			weight = 80,
-			client = {
-				component = {
-					`COMPONENT_AT_MUZZLE_02`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_muzzle_fat'] = {
 			label = 'Fat Muzzle',
-<<<<<<< HEAD
 			type = 'barrel',
 			weight = 80,
 			client = {
 				component = {`COMPONENT_AT_MUZZLE_03`},
-=======
-			type = 'muzzle',
-			weight = 80,
-			client = {
-				component = {
-					`COMPONENT_AT_MUZZLE_03`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_muzzle_precision'] = {
 			label = 'Precision Muzzle',
-<<<<<<< HEAD
 			type = 'barrel',
 			weight = 80,
 			client = {
 				component = {`COMPONENT_AT_MUZZLE_04`},
-=======
-			type = 'muzzle',
-			weight = 80,
-			client = {
-				component = {
-					`COMPONENT_AT_MUZZLE_04`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_muzzle_heavy'] = {
 			label = 'Heavy Muzzle',
-<<<<<<< HEAD
 			type = 'barrel',
 			weight = 80,
 			client = {
 				component = {`COMPONENT_AT_MUZZLE_05`},
-=======
-			type = 'muzzle',
-			weight = 80,
-			client = {
-				component = {
-					`COMPONENT_AT_MUZZLE_05`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_muzzle_slanted'] = {
 			label = 'Slanted Muzzle',
-<<<<<<< HEAD
 			type = 'barrel',
 			weight = 80,
 			client = {
 				component = {`COMPONENT_AT_MUZZLE_06`},
-=======
-			type = 'muzzle',
-			weight = 80,
-			client = {
-				component = {
-					`COMPONENT_AT_MUZZLE_06`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
 		['at_muzzle_split'] = {
 			label = 'Split Muzzle',
-<<<<<<< HEAD
 			type = 'barrel',
 			weight = 80,
 			client = {
 				component = {`COMPONENT_AT_MUZZLE_07`},
-=======
-			type = 'muzzle',
-			weight = 80,
-			client = {
-				component = {
-					`COMPONENT_AT_MUZZLE_07`
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
 
-<<<<<<< HEAD
 		['at_skin_gold'] = {
-=======
-		['at_muzzle_squared'] = {
-			label = 'Squared Muzzle',
-			type = 'muzzle',
-			weight = 80,
-			client = {
-				component = {
-					`COMPONENT_AT_MUZZLE_08`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_muzzle_bell'] = {
-			label = 'Bell Muzzle',
-			type = 'muzzle',
-			weight = 80,
-			client = {
-				component = {
-					`COMPONENT_AT_MUZZLE_09`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_luxe'] = {
->>>>>>> eb3c663b (Updates)
 			label = 'Luxury Weapon Kit',
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_MARKSMANRIFLE_VARMOD_LUXE`,`COMPONENT_MARKSMANRIFLE_VARMOD_LUXE`, `COMPONENT_SNIPERRIFLE_VARMOD_LUXE`,`COMPONENT_PUMPSHOTGUN_VARMOD_LOWRIDER`, `COMPONENT_SAWNOFFSHOTGUN_VARMOD_LUXE`,`COMPONENT_ASSAULTRIFLE_VARMOD_LUXE`, `COMPONENT_CARBINERIFLE_VARMOD_LUXE`, `COMPONENT_ADVANCEDRIFLE_VARMOD_LUXE`, `COMPONENT_SPECIALCARBINE_VARMOD_LOWRIDER`, `COMPONENT_BULLPUPRIFLE_VARMOD_LOW`, `COMPONENT_MG_VARMOD_LOWRIDER`,`COMPONENT_PISTOL_VARMOD_LUXE`, `COMPONENT_PISTOL50_VARMOD_LUXE`, `COMPONENT_APPISTOL_VARMOD_LUXE`, `COMPONENT_COMBATPISTOL_VARMOD_LOWRIDER`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_VARMOD_LUXE`,
-					`COMPONENT_ASSAULTSMG_VARMOD_LOWRIDER`,
-					`COMPONENT_CARBINERIFLE_VARMOD_LUXE`,
-					`COMPONENT_COMBATPISTOL_VARMOD_LOWRIDER`,
-					`COMPONENT_MARKSMANRIFLE_VARMOD_LUXE`,
-					`COMPONENT_MG_VARMOD_LOWRIDER`,
-					`COMPONENT_MICROSMG_VARMOD_LUXE`,
-					`COMPONENT_PISTOL_VARMOD_LUXE`,
-					`COMPONENT_PUMPSHOTGUN_VARMOD_LOWRIDER`,
-					`COMPONENT_SMG_VARMOD_LUXE`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_wood'] = {
-			label = 'Wood Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_HEAVYPISTOL_VARMOD_LUXE`,
-					`COMPONENT_SNIPERRIFLE_VARMOD_LUXE`,
-					`COMPONENT_SNSPISTOL_VARMOD_LOWRIDER`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_metal'] = {
-			label = 'Metal Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_ADVANCEDRIFLE_VARMOD_LUXE`,
-					`COMPONENT_APPISTOL_VARMOD_LUXE`,
-					`COMPONENT_BULLPUPRIFLE_VARMOD_LOW`,
-					`COMPONENT_SAWNOFFSHOTGUN_VARMOD_LUXE`,
-					`COMPONENT_SPECIALCARBINE_VARMOD_LOWRIDER`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_pearl'] = {
-			label = 'Pearl Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_PISTOL50_VARMOD_LUXE`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_ballas'] = {
-			label = 'Ballas Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_KNUCKLE_VARMOD_BALLAS`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_diamond'] = {
-			label = 'Diamond Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_KNUCKLE_VARMOD_DIAMOND`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_dollar'] = {
-			label = 'Dollar Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_KNUCKLE_VARMOD_DOLLAR`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_hate'] = {
-			label = 'Hate Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_KNUCKLE_VARMOD_HATE`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_king'] = {
-			label = 'King Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_KNUCKLE_VARMOD_KING`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_love'] = {
-			label = 'Love Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_KNUCKLE_VARMOD_LOVE`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_pimp'] = {
-			label = 'Pimp Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_KNUCKLE_VARMOD_PIMP`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_player'] = {
-			label = 'Player Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_KNUCKLE_VARMOD_PLAYER`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_vagos'] = {
-			label = 'Vagos Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_KNUCKLE_VARMOD_VAGOS`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_vip'] = {
-			label = 'VIP Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_REVOLVER_VARMOD_BOSS`,
-					`COMPONENT_SWITCHBLADE_VARMOD_VAR1`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_bodyguard'] = {
-			label = 'Bodyguard Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_REVOLVER_VARMOD_GOON`,
-					`COMPONENT_SWITCHBLADE_VARMOD_VAR2`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_festive'] = {
-			label = 'Festive Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_RAYPISTOL_VARMOD_XMAS18`
-				},
-				usetime = 2500
-			}
-		},
-
-		['at_skin_security'] = {
-			label = 'Security Weapon Kit',
-			type = 'skin',
-			weight = 50,
-			client = {
-				component = {
-					`COMPONENT_APPISTOL_VARMOD_SECURITY`,
-					`COMPONENT_MICROSMG_VARMOD_SECURITY`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1782,24 +1013,7 @@ return {
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSNIPER_MK2_CAMO`, `COMPONENT_MARKSMANRIFLE_MK2_CAMO`,`COMPONENT_COMBATMG_MK2_CAMO`,`COMPONENT_PUMPSHOTGUN_MK2_CAMO`,`COMPONENT_ASSAULTRIFLE_MK2_CAMO`, `COMPONENT_CARBINERIFLE_MK2_CAMO`, `COMPONENT_SPECIALCARBINE_MK2_CAMO`, `COMPONENT_BULLPUPRIFLE_MK2_CAMO`, `COMPONENT_BULLPUPRIFLE_VARMOD_LOW`, `COMPONENT_MG_VARMOD_LOWRIDER`,`COMPONENT_SNSPISTOL_MK2_CAMO`, `COMPONENT_REVOLVER_MK2_CAMO`, `COMPONENT_PISTOL_MK2_CAMO`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_MK2_CAMO`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CAMO`,
-					`COMPONENT_CARBINERIFLE_MK2_CAMO`,
-					`COMPONENT_COMBATMG_MK2_CAMO`,
-					`COMPONENT_HEAVYSNIPER_MK2_CAMO`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CAMO`,
-					`COMPONENT_PISTOL_MK2_CAMO`,
-					`COMPONENT_PUMPSHOTGUN_MK2_CAMO`,
-					`COMPONENT_REVOLVER_MK2_CAMO`,
-					`COMPONENT_SMG_MK2_CAMO`,
-					`COMPONENT_SNSPISTOL_MK2_CAMO`,
-					`COMPONENT_SPECIALCARBINE_MK2_CAMO`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1809,24 +1023,7 @@ return {
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSNIPER_MK2_CAMO_02`, `COMPONENT_MARKSMANRIFLE_MK2_CAMO_02`,`COMPONENT_COMBATMG_MK2_CAMO_02`,`COMPONENT_PUMPSHOTGUN_MK2_CAMO_02`,`COMPONENT_ASSAULTRIFLE_MK2_CAMO_02`, `COMPONENT_CARBINERIFLE_MK2_CAMO_02`, `COMPONENT_SPECIALCARBINE_MK2_CAMO_02`, `COMPONENT_BULLPUPRIFLE_MK2_CAMO_02`,`COMPONENT_PISTOL_MK2_CAMO_02`, `COMPONENT_REVOLVER_MK2_CAMO_02`, `COMPONENT_SNSPISTOL_MK2_CAMO_02`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_02`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CAMO_02`,
-					`COMPONENT_CARBINERIFLE_MK2_CAMO_02`,
-					`COMPONENT_COMBATMG_MK2_CAMO_02`,
-					`COMPONENT_HEAVYSNIPER_MK2_CAMO_02`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CAMO_02`,
-					`COMPONENT_PISTOL_MK2_CAMO_02`,
-					`COMPONENT_PUMPSHOTGUN_MK2_CAMO_02`,
-					`COMPONENT_REVOLVER_MK2_CAMO_02`,
-					`COMPONENT_SMG_MK2_CAMO_02`,
-					`COMPONENT_SNSPISTOL_MK2_CAMO_02`,
-					`COMPONENT_SPECIALCARBINE_MK2_CAMO_02`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1836,24 +1033,7 @@ return {
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSNIPER_MK2_CAMO_03`, `COMPONENT_MARKSMANRIFLE_MK2_CAMO_03`,`COMPONENT_COMBATMG_MK2_CAMO_03`,`COMPONENT_PUMPSHOTGUN_MK2_CAMO_03`,`COMPONENT_ASSAULTRIFLE_MK2_CAMO_03`, `COMPONENT_CARBINERIFLE_MK2_CAMO_03`, `COMPONENT_SPECIALCARBINE_MK2_CAMO_03`, `COMPONENT_BULLPUPRIFLE_MK2_CAMO_03`,`COMPONENT_PISTOL_MK2_CAMO_03`, `COMPONENT_REVOLVER_MK2_CAMO_03`, `COMPONENT_SNSPISTOL_MK2_CAMO_03`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_03`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CAMO_03`,
-					`COMPONENT_CARBINERIFLE_MK2_CAMO_03`,
-					`COMPONENT_COMBATMG_MK2_CAMO_03`,
-					`COMPONENT_HEAVYSNIPER_MK2_CAMO_03`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CAMO_03`,
-					`COMPONENT_PISTOL_MK2_CAMO_03`,
-					`COMPONENT_PUMPSHOTGUN_MK2_CAMO_03`,
-					`COMPONENT_REVOLVER_MK2_CAMO_03`,
-					`COMPONENT_SMG_MK2_CAMO_03`,
-					`COMPONENT_SNSPISTOL_MK2_CAMO_03`,
-					`COMPONENT_SPECIALCARBINE_MK2_CAMO_03`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1863,24 +1043,7 @@ return {
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSNIPER_MK2_CAMO_04`, `COMPONENT_MARKSMANRIFLE_MK2_CAMO_04`, `COMPONENT_COMBATMG_MK2_CAMO_04`, `COMPONENT_PUMPSHOTGUN_MK2_CAMO_04`, `COMPONENT_ASSAULTRIFLE_MK2_CAMO_04`, `COMPONENT_CARBINERIFLE_MK2_CAMO_04`, `COMPONENT_SPECIALCARBINE_MK2_CAMO_04`, `COMPONENT_BULLPUPRIFLE_MK2_CAMO_04`, `COMPONENT_PISTOL_MK2_CAMO_04`, `COMPONENT_REVOLVER_MK2_CAMO_04`, `COMPONENT_SNSPISTOL_MK2_CAMO_04`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_04`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CAMO_04`,
-					`COMPONENT_CARBINERIFLE_MK2_CAMO_04`,
-					`COMPONENT_COMBATMG_MK2_CAMO_04`,
-					`COMPONENT_HEAVYSNIPER_MK2_CAMO_04`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CAMO_04`,
-					`COMPONENT_PISTOL_MK2_CAMO_04`,
-					`COMPONENT_PUMPSHOTGUN_MK2_CAMO_04`,
-					`COMPONENT_REVOLVER_MK2_CAMO_04`,
-					`COMPONENT_SMG_MK2_CAMO_04`,
-					`COMPONENT_SNSPISTOL_MK2_CAMO_04`,
-					`COMPONENT_SPECIALCARBINE_MK2_CAMO_04`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1890,24 +1053,7 @@ return {
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSNIPER_MK2_CAMO_05`, `COMPONENT_MARKSMANRIFLE_MK2_CAMO_05`, `COMPONENT_COMBATMG_MK2_CAMO_05`, `COMPONENT_PUMPSHOTGUN_MK2_CAMO_05`, `COMPONENT_ASSAULTRIFLE_MK2_CAMO_05`, `COMPONENT_CARBINERIFLE_MK2_CAMO_05`, `COMPONENT_SPECIALCARBINE_MK2_CAMO_05`, `COMPONENT_BULLPUPRIFLE_MK2_CAMO_05`, `COMPONENT_PISTOL_MK2_CAMO_05`, `COMPONENT_REVOLVER_MK2_CAMO_05`, `COMPONENT_SNSPISTOL_MK2_CAMO_05`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_05`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CAMO_05`,
-					`COMPONENT_CARBINERIFLE_MK2_CAMO_05`,
-					`COMPONENT_COMBATMG_MK2_CAMO_05`,
-					`COMPONENT_HEAVYSNIPER_MK2_CAMO_05`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CAMO_05`,
-					`COMPONENT_PISTOL_MK2_CAMO_05`,
-					`COMPONENT_PUMPSHOTGUN_MK2_CAMO_05`,
-					`COMPONENT_REVOLVER_MK2_CAMO_05`,
-					`COMPONENT_SMG_MK2_CAMO_05`,
-					`COMPONENT_SNSPISTOL_MK2_CAMO_05`,
-					`COMPONENT_SPECIALCARBINE_MK2_CAMO_05`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1917,24 +1063,7 @@ return {
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSNIPER_MK2_CAMO_06`, `COMPONENT_MARKSMANRIFLE_MK2_CAMO_06`, `COMPONENT_COMBATMG_MK2_CAMO_06`, `COMPONENT_PUMPSHOTGUN_MK2_CAMO_06`, `COMPONENT_ASSAULTRIFLE_MK2_CAMO_06`, `COMPONENT_CARBINERIFLE_MK2_CAMO_06`, `COMPONENT_SPECIALCARBINE_MK2_CAMO_06`, `COMPONENT_BULLPUPRIFLE_MK2_CAMO_06`, `COMPONENT_PISTOL_MK2_CAMO_06`, `COMPONENT_REVOLVER_MK2_CAMO_06`, `COMPONENT_SNSPISTOL_MK2_CAMO_06`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_06`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CAMO_06`,
-					`COMPONENT_CARBINERIFLE_MK2_CAMO_06`,
-					`COMPONENT_COMBATMG_MK2_CAMO_06`,
-					`COMPONENT_HEAVYSNIPER_MK2_CAMO_06`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CAMO_06`,
-					`COMPONENT_PISTOL_MK2_CAMO_06`,
-					`COMPONENT_PUMPSHOTGUN_MK2_CAMO_06`,
-					`COMPONENT_REVOLVER_MK2_CAMO_06`,
-					`COMPONENT_SMG_MK2_CAMO_06`,
-					`COMPONENT_SNSPISTOL_MK2_CAMO_06`,
-					`COMPONENT_SPECIALCARBINE_MK2_CAMO_06`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1944,24 +1073,7 @@ return {
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSNIPER_MK2_CAMO_07`, `COMPONENT_MARKSMANRIFLE_MK2_CAMO_07`, `COMPONENT_COMBATMG_MK2_CAMO_07`, `COMPONENT_PUMPSHOTGUN_MK2_CAMO_07`, `COMPONENT_ASSAULTRIFLE_MK2_CAMO_07`, `COMPONENT_CARBINERIFLE_MK2_CAMO_07`, `COMPONENT_SPECIALCARBINE_MK2_CAMO_07`, `COMPONENT_BULLPUPRIFLE_MK2_CAMO_07`, `COMPONENT_PISTOL_MK2_CAMO_07`, `COMPONENT_REVOLVER_MK2_CAMO_07`, `COMPONENT_SNSPISTOL_MK2_CAMO_07`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_07`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CAMO_07`,
-					`COMPONENT_CARBINERIFLE_MK2_CAMO_07`,
-					`COMPONENT_COMBATMG_MK2_CAMO_07`,
-					`COMPONENT_HEAVYSNIPER_MK2_CAMO_07`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CAMO_07`,
-					`COMPONENT_PISTOL_MK2_CAMO_07`,
-					`COMPONENT_PUMPSHOTGUN_MK2_CAMO_07`,
-					`COMPONENT_REVOLVER_MK2_CAMO_07`,
-					`COMPONENT_SMG_MK2_CAMO_07`,
-					`COMPONENT_SNSPISTOL_MK2_CAMO_07`,
-					`COMPONENT_SPECIALCARBINE_MK2_CAMO_07`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1971,24 +1083,7 @@ return {
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSNIPER_MK2_CAMO_08`, `COMPONENT_MARKSMANRIFLE_MK2_CAMO_08`,`COMPONENT_COMBATMG_MK2_CAMO_08`, `COMPONENT_PUMPSHOTGUN_MK2_CAMO_08`, `COMPONENT_ASSAULTRIFLE_MK2_CAMO_08`, `COMPONENT_CARBINERIFLE_MK2_CAMO_08`, `COMPONENT_SPECIALCARBINE_MK2_CAMO_08`, `COMPONENT_BULLPUPRIFLE_MK2_CAMO_08`, `COMPONENT_PISTOL_MK2_CAMO_08`, `COMPONENT_REVOLVER_MK2_CAMO_08`, `COMPONENT_SNSPISTOL_MK2_CAMO_08`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_08`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CAMO_08`,
-					`COMPONENT_CARBINERIFLE_MK2_CAMO_08`,
-					`COMPONENT_COMBATMG_MK2_CAMO_08`,
-					`COMPONENT_HEAVYSNIPER_MK2_CAMO_08`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CAMO_08`,
-					`COMPONENT_PISTOL_MK2_CAMO_08`,
-					`COMPONENT_PUMPSHOTGUN_MK2_CAMO_08`,
-					`COMPONENT_REVOLVER_MK2_CAMO_08`,
-					`COMPONENT_SMG_MK2_CAMO_08`,
-					`COMPONENT_SNSPISTOL_MK2_CAMO_08`,
-					`COMPONENT_SPECIALCARBINE_MK2_CAMO_08`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -1998,24 +1093,7 @@ return {
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSNIPER_MK2_CAMO_09`, `COMPONENT_MARKSMANRIFLE_MK2_CAMO_09`, `COMPONENT_COMBATMG_MK2_CAMO_09`, `COMPONENT_PUMPSHOTGUN_MK2_CAMO_09`,`COMPONENT_ASSAULTRIFLE_MK2_CAMO_09`, `COMPONENT_CARBINERIFLE_MK2_CAMO_09`, `COMPONENT_SPECIALCARBINE_MK2_CAMO_09`, `COMPONENT_BULLPUPRIFLE_MK2_CAMO_09`, `COMPONENT_PISTOL_MK2_CAMO_09`, `COMPONENT_REVOLVER_MK2_CAMO_09`, `COMPONENT_SNSPISTOL_MK2_CAMO_09`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_09`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CAMO_09`,
-					`COMPONENT_CARBINERIFLE_MK2_CAMO_09`,
-					`COMPONENT_COMBATMG_MK2_CAMO_09`,
-					`COMPONENT_HEAVYSNIPER_MK2_CAMO_09`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CAMO_09`,
-					`COMPONENT_PISTOL_MK2_CAMO_09`,
-					`COMPONENT_PUMPSHOTGUN_MK2_CAMO_09`,
-					`COMPONENT_REVOLVER_MK2_CAMO_09`,
-					`COMPONENT_SMG_MK2_CAMO_09`,
-					`COMPONENT_SNSPISTOL_MK2_CAMO_09`,
-					`COMPONENT_SPECIALCARBINE_MK2_CAMO_09`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -2025,24 +1103,7 @@ return {
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSNIPER_MK2_CAMO_10`, `COMPONENT_MARKSMANRIFLE_MK2_CAMO_10`, `COMPONENT_COMBATMG_MK2_CAMO_10`, `COMPONENT_PUMPSHOTGUN_MK2_CAMO_10`, `COMPONENT_ASSAULTRIFLE_MK2_CAMO_10`, `COMPONENT_CARBINERIFLE_MK2_CAMO_10`, `COMPONENT_SPECIALCARBINE_MK2_CAMO_10`, `COMPONENT_BULLPUPRIFLE_MK2_CAMO_10`, `COMPONENT_PISTOL_MK2_CAMO_10`, `COMPONENT_REVOLVER_MK2_CAMO_10`, `COMPONENT_SNSPISTOL_MK2_CAMO_10`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_10`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CAMO_10`,
-					`COMPONENT_CARBINERIFLE_MK2_CAMO_10`,
-					`COMPONENT_COMBATMG_MK2_CAMO_10`,
-					`COMPONENT_HEAVYSNIPER_MK2_CAMO_10`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CAMO_10`,
-					`COMPONENT_PISTOL_MK2_CAMO_10`,
-					`COMPONENT_PUMPSHOTGUN_MK2_CAMO_10`,
-					`COMPONENT_REVOLVER_MK2_CAMO_10`,
-					`COMPONENT_SMG_MK2_CAMO_10`,
-					`COMPONENT_SNSPISTOL_MK2_CAMO_10`,
-					`COMPONENT_SPECIALCARBINE_MK2_CAMO_10`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -2052,24 +1113,7 @@ return {
 			type = 'skin',
 			weight = 50,
 			client = {
-<<<<<<< HEAD
 				component = {`COMPONENT_HEAVYSNIPER_MK2_CAMO_IND_01`, `COMPONENT_MARKSMANRIFLE_MK2_CAMO_IND_01`, `COMPONENT_COMBATMG_MK2_CAMO_IND_01`, `COMPONENT_PUMPSHOTGUN_MK2_CAMO_IND_01`, `COMPONENT_ASSAULTRIFLE_MK2_CAMO_IND_01`, `COMPONENT_CARBINERIFLE_MK2_CAMO_IND_01`, `COMPONENT_SPECIALCARBINE_MK2_CAMO_IND_01`, `COMPONENT_BULLPUPRIFLE_MK2_CAMO_IND_01`, `COMPONENT_SNSPISTOL_MK2_CAMO_IND_01_SLIDE`, `COMPONENT_REVOLVER_MK2_CAMO_IND_01`, `COMPONENT_PISTOL_MK2_CAMO_IND_01`},
-=======
-				component = {
-					`COMPONENT_ASSAULTRIFLE_MK2_CAMO_IND_01`,
-					`COMPONENT_BULLPUPRIFLE_MK2_CAMO_IND_01`,
-					`COMPONENT_CARBINERIFLE_MK2_CAMO_IND_01`,
-					`COMPONENT_COMBATMG_MK2_CAMO_IND_01`,
-					`COMPONENT_HEAVYSNIPER_MK2_CAMO_IND_01`,
-					`COMPONENT_MARKSMANRIFLE_MK2_CAMO_IND_01`,
-					`COMPONENT_PISTOL_MK2_CAMO_IND_01`,
-					`COMPONENT_PUMPSHOTGUN_MK2_CAMO_IND_01`,
-					`COMPONENT_REVOLVER_MK2_CAMO_IND_01`,
-					`COMPONENT_SMG_MK2_CAMO_IND_01`,
-					`COMPONENT_SNSPISTOL_MK2_CAMO_IND_01`,
-					`COMPONENT_SPECIALCARBINE_MK2_CAMO_IND_01`,
-				},
->>>>>>> eb3c663b (Updates)
 				usetime = 2500
 			}
 		},
@@ -2088,15 +1132,10 @@ return {
       description = '.38 Long Colt',
 			weight = 10,
 =======
-<<<<<<< HEAD
-			label = '.38 Long Colt',
-      description = '.38 Long Colt',
-			weight = 10,
-=======
 			label = '.38 LC',
+      description = '.38 Long Colt',
 			weight = 15,
->>>>>>> 2.25.0
->>>>>>> eb3c663b (Updates)
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
 		},
 
 		['ammo-44'] = {
@@ -2107,42 +1146,28 @@ return {
 
 		['ammo-45'] = {
 			label = '.45 ACP',
-<<<<<<< HEAD
       description = '.45 ACP',
-			weight = 9,
-=======
 <<<<<<< HEAD
-      description = '.45 ACP',
 			weight = 9,
 =======
 			weight = 15,
->>>>>>> 2.25.0
->>>>>>> eb3c663b (Updates)
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
 		},
 
 		['ammo-50'] = {
 			label = '.50 AE',
-<<<<<<< HEAD
       description = '.50 Action Express',
-			weight = 19,
-=======
 <<<<<<< HEAD
-      description = '.50 Action Express',
 			weight = 19,
 =======
 			weight = 45,
->>>>>>> 2.25.0
->>>>>>> eb3c663b (Updates)
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
 		},
 
 		['ammo-9'] = {
 			label = '9mm',
-<<<<<<< HEAD
       description = '9x19mm Parabellum',
-			weight = 8,
-=======
 <<<<<<< HEAD
-      description = '9x19mm Parabellum',
 			weight = 8,
 =======
 			weight = 7,
@@ -2151,8 +1176,7 @@ return {
 		['ammo-firework'] = {
 			label = 'Firework',
 			weight = 200,
->>>>>>> 2.25.0
->>>>>>> eb3c663b (Updates)
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
 		},
 
 		['ammo-flare'] = {
@@ -2160,35 +1184,14 @@ return {
 			weight = 38,
 		},
 
-<<<<<<< HEAD
 		['ammo-heavysniper'] = {
 			label = '.50 BMG',
-=======
-		['ammo-grenade'] = {
-			label = '40mm Explosive',
-			weight = 400,
-		},
-
-		['ammo-heavysniper'] = {
-			label = '.50 BMG',
-<<<<<<< HEAD
->>>>>>> eb3c663b (Updates)
       description = '.50 BMG',
+<<<<<<< HEAD
 			weight = 45,
 		},
 
 		['ammo-musket'] = {
-<<<<<<< HEAD
-<<<<<<< HEAD
-			label = '.50 Ball',
-			weight = 65,
-		},
-
-		['ammo-rifle'] = {
-			label = '5.56x45',
-=======
-=======
->>>>>>> eb3c663b (Updates)
 			label = 'Musket Ball',
       description = 'Musket Ball',
 			weight = 30,
@@ -2196,10 +1199,6 @@ return {
 
 		['ammo-rifle'] = {
 			label = '5.56',
-      description = '5.56x45mm NATO',
-<<<<<<< HEAD
->>>>>>> 33eb3ce7 (Changes from server)
-=======
 =======
 			weight = 51,
 		},
@@ -2210,48 +1209,31 @@ return {
 		},
 
 		['ammo-musket'] = {
-			label = '.50 Ball',
 			weight = 38,
 		},
 
 		['ammo-railgun'] = {
-			label = 'Railgun charge',
+			label = 'Musket round',
 			weight = 150,
 		},
 
 		['ammo-rifle'] = {
 			label = '5.56x45',
->>>>>>> 2.25.0
->>>>>>> eb3c663b (Updates)
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
+      description = '5.56x45mm NATO',
 			weight = 4,
 		},
 
 		['ammo-rifle2'] = {
 <<<<<<< HEAD
-<<<<<<< HEAD
-			label = '7.62x39',
-=======
 			label = '7.62',
+=======
+			label = '7.62x39',
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
       description = '7.62x39mm Soviet',
->>>>>>> 33eb3ce7 (Changes from server)
 			weight = 8,
 		},
 
-=======
-			label = '7.62',
-      description = '7.62x39mm Soviet',
-=======
-			label = '7.62x39',
->>>>>>> 2.25.0
-			weight = 8,
-		},
-
-		['ammo-rocket'] = {
-			label = 'Rocket',
-			weight = 500,
-		},
-
->>>>>>> eb3c663b (Updates)
 		['ammo-shotgun'] = {
 			label = '12 Gauge',
       description = '12 Gauge',
@@ -2260,23 +1242,14 @@ return {
 
 		['ammo-sniper'] = {
 <<<<<<< HEAD
-<<<<<<< HEAD
-			label = '7.62x51',
-			weight = 9,
-=======
-			label = '7.62 NATO',
-      description = '7.62x51mm NATO',
-			weight = 11,
->>>>>>> 33eb3ce7 (Changes from server)
-=======
 			label = '7.62 NATO',
       description = '7.62x51mm NATO',
 			weight = 11,
 =======
 			label = '7.62x51',
+      description = '7.62x51mm NATO',
 			weight = 9,
->>>>>>> 2.25.0
->>>>>>> eb3c663b (Updates)
+>>>>>>> eb3c663ba60e5ee84ec918a8a2eba871a53685c6
 		},
 
 		['ammo-emp'] = {
