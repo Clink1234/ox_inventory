@@ -9,6 +9,20 @@
 ---@field groups? string | string[] | { [string]: number }
 
 return {
+  Golf = {
+		name = 'Golf Shop',
+		blip = {
+			id = 358, colour = 0, scale = 0.8
+		}, inventory = {
+			{ name = 'golf', price = 50 },
+      { name = 'weapon_golfclub', price = 500 },
+		}, locations = {
+			vec3(-1347.4512, 141.9484, 56.4430),
+		}, targets = {
+			{ loc = vec3(-1347.4512, 141.9484, 56.4430), length = 2.7, width = 2.5, heading = 340.6778, minZ = 55.5, maxZ = 57.9, distance = 1.5 },
+		}
+	},
+  
 	General = {
 		name = 'Shop',
 		blip = {
